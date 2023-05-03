@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Alquileres>
+    <Alquiler Dni="27163605F" Matricula="1445RTT">
+        <FechaAlquiler Formato="dd/MM/yyyy">07/11/2022</FechaAlquiler>
+        <FechaDevolucion TipoDato="String"/>
+    </Alquiler>
+    <Alquiler Dni="34861938X" Matricula="6737FDG">
+        <FechaAlquiler Formato="dd/MM/yyyy">14/11/2022</FechaAlquiler>
+        <FechaDevolucion TipoDato="String"/>
+    </Alquiler>
+    <Alquiler Dni="27139408Y" Matricula="7816KKN">
+        <FechaAlquiler Formato="dd/MM/yyyy">20/11/2022</FechaAlquiler>
+        <FechaDevolucion TipoDato="String"/>
+    </Alquiler>
+    <Alquiler Dni="76660310E" Matricula="2257JPG">
+        <FechaAlquiler Formato="dd/MM/yyyy">14/01/2023</FechaAlquiler>
+        <FechaDevolucion TipoDato="String">01/05/2023</FechaDevolucion>
+    </Alquiler>
+    <Alquiler Dni="27532496R" Matricula="8334JGW">
+        <FechaAlquiler Formato="dd/MM/yyyy">01/03/2023</FechaAlquiler>
+        <FechaDevolucion TipoDato="String">30/04/2023</FechaDevolucion>
+    </Alquiler>
+    <Alquiler Dni="75722433Q" Matricula="4620DPT">
+        <FechaAlquiler Formato="dd/MM/yyyy">08/03/2023</FechaAlquiler>
+        <FechaDevolucion TipoDato="String">30/04/2023</FechaDevolucion>
+    </Alquiler>
+    <Alquiler Dni="76789000G" Matricula="5680GGV">
+        <FechaAlquiler Formato="dd/MM/yyyy">01/05/2023</FechaAlquiler>
+        <FechaDevolucion TipoDato="String"/>
+    </Alquiler>
+    <Alquiler Dni="75722433Q" Matricula="8334JGW">
+        <FechaAlquiler Formato="dd/MM/yyyy">11/04/2023</FechaAlquiler>
+        <FechaDevolucion TipoDato="String"/>
+    </Alquiler>
+</Alquileres>

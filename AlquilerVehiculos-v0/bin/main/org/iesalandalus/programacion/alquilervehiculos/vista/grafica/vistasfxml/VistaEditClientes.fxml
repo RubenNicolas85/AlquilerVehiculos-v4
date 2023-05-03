@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="377.0" prefWidth="277.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.iesalandalus.programacion.alquilervehiculos.vista.grafica.controllers.ControllerEditClientes">
+   <children>
+      <Label fx:id="labelTitulo" alignment="CENTER" contentDisplay="CENTER" layoutX="39.0" layoutY="14.0" prefHeight="35.0" prefWidth="200.0" text="Modificar Cliente" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="39.0" layoutY="61.0" prefWidth="200.0" />
+      <Label layoutX="34.0" layoutY="76.0" text="Nombre:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="campoNombre" layoutX="29.0" layoutY="102.0" prefHeight="26.0" prefWidth="200.0" />
+      <Label layoutX="34.0" layoutY="140.0" text="DNI:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="campoDni" layoutX="28.0" layoutY="166.0" prefHeight="26.0" prefWidth="200.0" />
+      <Label layoutX="34.0" layoutY="206.0" text="Teléfono:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="campoTelefono" layoutX="28.0" layoutY="232.0" prefHeight="26.0" prefWidth="200.0" />
+      <Separator layoutX="39.0" layoutY="274.0" prefWidth="200.0" />
+      <Button fx:id="buttonGuardar" layoutX="39.0" layoutY="290.0" mnemonicParsing="false" onAction="#guardar" prefHeight="38.0" prefWidth="200.0" text="Guardar">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

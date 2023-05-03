@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Clientes>
+    <Cliente Dni="75722433Q">
+        <Nombre TipoDato="String">Ruben</Nombre>
+        <Telefono TipoDato="String">634808152</Telefono>
+    </Cliente>
+    <Cliente Dni="76660310E">
+        <Nombre TipoDato="String">Maria</Nombre>
+        <Telefono TipoDato="String">662556681</Telefono>
+    </Cliente>
+    <Cliente Dni="27532496R">
+        <Nombre TipoDato="String">Pepe</Nombre>
+        <Telefono TipoDato="String">601099267</Telefono>
+    </Cliente>
+    <Cliente Dni="27163605F">
+        <Nombre TipoDato="String">Ana</Nombre>
+        <Telefono TipoDato="String">950310193</Telefono>
+    </Cliente>
+    <Cliente Dni="27139408Y">
+        <Nombre TipoDato="String">Juan</Nombre>
+        <Telefono TipoDato="String">640868446</Telefono>
+    </Cliente>
+    <Cliente Dni="34861938X">
+        <Nombre TipoDato="String">Angeles</Nombre>
+        <Telefono TipoDato="String">900900900</Telefono>
+    </Cliente>
+    <Cliente Dni="76789000G">
+        <Nombre TipoDato="String">Paquito</Nombre>
+        <Telefono TipoDato="String">900900900</Telefono>
+    </Cliente>
+    <Cliente Dni="34565897W">
+        <Nombre TipoDato="String">Roberto Munoz</Nombre>
+        <Telefono TipoDato="String">914556789</Telefono>
+    </Cliente>
+    <Cliente Dni="76233566C">
+        <Nombre TipoDato="String">Fernando Alvarez</Nombre>
+        <Telefono TipoDato="String">931223489</Telefono>
+    </Cliente>
+    <Cliente Dni="27111259D">
+        <Nombre TipoDato="String">Marta Garcia</Nombre>
+        <Telefono TipoDato="String">955342201</Telefono>
+    </Cliente>
+    <Cliente Dni="75900896E">
+        <Nombre TipoDato="String">Luis Fernandez</Nombre>
+        <Telefono TipoDato="String">961999083</Telefono>
+    </Cliente>
+    <Cliente Dni="75675999L">
+        <Nombre TipoDato="String">Miguel Almansa</Nombre>
+        <Telefono TipoDato="String">950235666</Telefono>
+    </Cliente>
+</Clientes>

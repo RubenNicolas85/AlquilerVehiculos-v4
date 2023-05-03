@@ -1,0 +1,2362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:PapyrusJava="http://www.eclipse.org/papyrus/PapyrusJava/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <uml:Model xmi:id="_ckiaQKIfEe2FfJdvgWWwEg" name="alquilerVehiculos">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_cmhXQKIfEe2FfJdvgWWwEg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hwp50KIfEe2FfJdvgWWwEg" name="AlquilerVehiculos">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hzOFoKIfEe2FfJdvgWWwEg" name="org">
+        <packagedElement xmi:type="uml:Package" xmi:id="_hzOssKIfEe2FfJdvgWWwEg" name="iesalandalus">
+          <packagedElement xmi:type="uml:Package" xmi:id="_hzPTwKIfEe2FfJdvgWWwEg" name="programacion">
+            <packagedElement xmi:type="uml:Package" xmi:id="_hzQh4KIfEe2FfJdvgWWwEg" name="alquilervehiculos">
+              <packagedElement xmi:type="uml:Package" xmi:id="_hzRI8KIfEe2FfJdvgWWwEg" name="mvc">
+                <packagedElement xmi:type="uml:Package" xmi:id="_nFDLoKIfEe2FfJdvgWWwEg" name="modelo">
+                  <packagedElement xmi:type="uml:Package" xmi:id="_nFDysKIfEe2FfJdvgWWwEg" name="dominio">
+                    <packagedElement xmi:type="uml:Association" xmi:id="_g4_ckKIgEe2FfJdvgWWwEg" name="A_cliente_alquiler" memberEnd="_ps-3MaIfEe2FfJdvgWWwEg _g5BRwKIgEe2FfJdvgWWwEg">
+                      <ownedEnd xmi:type="uml:Property" xmi:id="_g5BRwKIgEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg" association="_g4_ckKIgEe2FfJdvgWWwEg">
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g5BRwaIgEe2FfJdvgWWwEg"/>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g5B40KIgEe2FfJdvgWWwEg" value="1"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_jOX_kKIgEe2FfJdvgWWwEg" name="A_turismo_alquiler" memberEnd="_ptDvsKIfEe2FfJdvgWWwEg _jOZNsKIgEe2FfJdvgWWwEg">
+                      <ownedEnd xmi:type="uml:Property" xmi:id="_jOZNsKIgEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg" association="_jOX_kKIgEe2FfJdvgWWwEg">
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jOZNsaIgEe2FfJdvgWWwEg"/>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jOZ0wKIgEe2FfJdvgWWwEg" value="1"/>
+                      </ownedEnd>
+                    </packagedElement>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_r68jkKIfEe2FfJdvgWWwEg" name="negocio">
+                    <packagedElement xmi:type="uml:Association" xmi:id="_0tEEAKIgEe2FfJdvgWWwEg" name="A_coleccionClientes_clientes" memberEnd="_r69xsKIfEe2FfJdvgWWwEg _0tHHUKIgEe2FfJdvgWWwEg">
+                      <ownedEnd xmi:type="uml:Property" xmi:id="_0tHHUKIgEe2FfJdvgWWwEg" name="clientes" type="_r69KoKIfEe2FfJdvgWWwEg" association="_0tEEAKIgEe2FfJdvgWWwEg">
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0tHHUaIgEe2FfJdvgWWwEg"/>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0tHuYKIgEe2FfJdvgWWwEg" value="1"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_1hl4QKIgEe2FfJdvgWWwEg" name="A_coleccionAlquileres_alquileres" memberEnd="_vGt8AKIfEe2FfJdvgWWwEg _1hnGYKIgEe2FfJdvgWWwEg">
+                      <ownedEnd xmi:type="uml:Property" xmi:id="_1hnGYKIgEe2FfJdvgWWwEg" name="alquileres" type="_vGpqkKIfEe2FfJdvgWWwEg" association="_1hl4QKIgEe2FfJdvgWWwEg">
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1hnGYaIgEe2FfJdvgWWwEg"/>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1hnGYqIgEe2FfJdvgWWwEg" value="1"/>
+                      </ownedEnd>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:Association" xmi:id="_2R6h8KIgEe2FfJdvgWWwEg" name="A_coleccionTurismos_turismos" memberEnd="_tr48wKIfEe2FfJdvgWWwEg _2R7wEKIgEe2FfJdvgWWwEg">
+                      <ownedEnd xmi:type="uml:Property" xmi:id="_2R7wEKIgEe2FfJdvgWWwEg" name="turismos" type="_tr3uoKIfEe2FfJdvgWWwEg" association="_2R6h8KIgEe2FfJdvgWWwEg">
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2R7wEaIgEe2FfJdvgWWwEg"/>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2R7wEqIgEe2FfJdvgWWwEg" value="1"/>
+                      </ownedEnd>
+                    </packagedElement>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_AALXAKIhEe2FfJdvgWWwEg" name="A_clientes_modelo" memberEnd="_wE-7EKIfEe2FfJdvgWWwEg _AAMlIKIhEe2FfJdvgWWwEg">
+                    <ownedEnd xmi:type="uml:Property" xmi:id="_AAMlIKIhEe2FfJdvgWWwEg" name="modelo" type="_wE8e0KIfEe2FfJdvgWWwEg" association="_AALXAKIhEe2FfJdvgWWwEg">
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AANMMKIhEe2FfJdvgWWwEg"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AANMMaIhEe2FfJdvgWWwEg" value="1"/>
+                    </ownedEnd>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_AvLLAKIhEe2FfJdvgWWwEg" name="A_turismos_modelo" memberEnd="_wFClcKIfEe2FfJdvgWWwEg _AvMZIKIhEe2FfJdvgWWwEg">
+                    <ownedEnd xmi:type="uml:Property" xmi:id="_AvMZIKIhEe2FfJdvgWWwEg" name="modelo" type="_wE8e0KIfEe2FfJdvgWWwEg" association="_AvLLAKIhEe2FfJdvgWWwEg">
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AvMZIaIhEe2FfJdvgWWwEg"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AvNAMKIhEe2FfJdvgWWwEg" value="1"/>
+                    </ownedEnd>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_BjHJYKIhEe2FfJdvgWWwEg" name="A_alquileres_modelo" memberEnd="_wFFBsKIfEe2FfJdvgWWwEg _BjIXgKIhEe2FfJdvgWWwEg">
+                    <ownedEnd xmi:type="uml:Property" xmi:id="_BjIXgKIhEe2FfJdvgWWwEg" name="modelo" type="_wE8e0KIfEe2FfJdvgWWwEg" association="_BjHJYKIhEe2FfJdvgWWwEg">
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BjI-kKIhEe2FfJdvgWWwEg"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BjI-kaIhEe2FfJdvgWWwEg" value="1"/>
+                    </ownedEnd>
+                  </packagedElement>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Package" xmi:id="_zNC4MKIfEe2FfJdvgWWwEg" name="vista">
+                  <packagedElement xmi:type="uml:Association" xmi:id="_RXU-IKIjEe2FfJdvgWWwEg" name="A_controlador_vista" memberEnd="_zNIXwKIfEe2FfJdvgWWwEg _RXXaYKIjEe2FfJdvgWWwEg">
+                    <ownedEnd xmi:type="uml:Property" xmi:id="_RXXaYKIjEe2FfJdvgWWwEg" name="vista" type="_zNEGUKIfEe2FfJdvgWWwEg" association="_RXU-IKIjEe2FfJdvgWWwEg">
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RXYBcKIjEe2FfJdvgWWwEg"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RXYBcaIjEe2FfJdvgWWwEg" value="1"/>
+                    </ownedEnd>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_qBEsgKJOEe2iHtsPQvX-yw" name="Consola" visibility="public">
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_qBProKJOEe2iHtsPQvX-yw" name="PATRON_FECHA" visibility="private" isLeaf="true" isStatic="true" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false">
+                      <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_qBUkIKJOEe2iHtsPQvX-yw" name="defaultValue">
+                        <language>JAVA</language>
+                        <body>&quot;dd/MM/yyyy&quot;</body>
+                      </defaultValue>
+                    </ownedAttribute>
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_qBcf8KJOEe2iHtsPQvX-yw" name="FORMATO_FECHA" visibility="private" isLeaf="true" isStatic="true" type="_pszRAaIfEe2FfJdvgWWwEg" isUnique="false">
+                      <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_qBe8MKJOEe2iHtsPQvX-yw" name="defaultValue">
+                        <language>JAVA</language>
+                        <body>DateTimeFormatter.ofPattern(PATRON_FECHA)</body>
+                      </defaultValue>
+                    </ownedAttribute>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qBuMwKJOEe2iHtsPQvX-yw" name="Consola" specification="_qBh_gKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qB0TYKJOEe2iHtsPQvX-yw" name="mostrarMenu" specification="_qByeMKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    mostrarCabecera(&quot;Gestión de los préstamos de la Bibliotea del IES Al-Ándalus&quot;);
+    for (Opcion opcion : Opcion.values()) {
+        System.out.print(opcion);
+    }
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qB82QKJOEe2iHtsPQvX-yw" name="mostrarCabecera" specification="_qB39wKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    System.out.printf(&quot;%n%s%n&quot;, mensaje);
+    String formatoStr = &quot;%0&quot; + mensaje.length() + &quot;d%n&quot;;
+    System.out.println(String.format(formatoStr, 0).replace(&quot;0&quot;, &quot;-&quot;));
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qCC84KJOEe2iHtsPQvX-yw" name="elegirOpcion" specification="_qB_SgKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    Opcion opcion = null;
+    do {
+        try {
+            System.out.print(&quot;\nElige un opción: &quot;);
+            opcion = Opcion.get(Entrada.entero());
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
+    } while (opcion == null);
+    return opcion;
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qCKRoKJOEe2iHtsPQvX-yw" name="leerCadena" specification="_qCGnQKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    System.out.print(mensaje);
+    return Entrada.cadena();
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qCUpsKJOEe2iHtsPQvX-yw" name="leerCliente" specification="_qCK4sKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    String nombre = leerCadena(&quot;Intoduce el nombre: &quot;);
+    String dni = leerCadena(&quot;Introduce el DNI: &quot;);
+    String telefono = leerCadena(&quot;Introduce el teléfono: &quot;);
+    return new Cliente(nombre, dni, telefono);
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qCawUKJOEe2iHtsPQvX-yw" name="leerClienteDni" specification="_qCXF8KJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    return Cliente.getClienteConDni(leerCadena(&quot;Introduce el DNI: &quot;));
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qCfo0KJOEe2iHtsPQvX-yw" name="leerNombre" specification="_qCclgKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    return leerCadena(&quot;Introduce el nuevo nombre: &quot;);
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qClIYKJOEe2iHtsPQvX-yw" name="leerTelefono" specification="_qCiFEKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    return leerCadena(&quot;Introduce el nuevo teléfono: &quot;);
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qCwukKJOEe2iHtsPQvX-yw" name="leerTurismo" specification="_qCmWgKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    String marca = leerCadena(&quot;Introduce la marca: &quot;);
+    String modelo = leerCadena(&quot;Introduce el modelo: &quot;);
+    int cilindrada = leerEntero(&quot;Introduce la cilindrada: &quot;);
+    String matricula = leerCadena(&quot;Introduce la matrícula: &quot;);
+    return new Turismo(marca, modelo, cilindrada, matricula);
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qC1AAKJOEe2iHtsPQvX-yw" name="leerTurismoMatricula" specification="_qCyjwKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    return Turismo.getTurismoConMatricula(leerCadena(&quot;Introduce la matrícula: &quot;));
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qDB0UKJOEe2iHtsPQvX-yw" name="leerAlquiler" specification="_qC21MKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    Cliente cliente = leerClienteDni();
+    Turismo turismo = leerTurismoMatricula();
+    LocalDate fechaAqluiler = leerFecha(String.format(&quot;Introduce la fecha de alquiler (%s): &quot;, PATRON_FECHA));
+    return new Alquiler(cliente, turismo, fechaAqluiler);
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qDGFwKJOEe2iHtsPQvX-yw" name="leerFechaDevolucion" specification="_qDDpgKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    return leerFecha(String.format(&quot;Introduce la fecha de devolución (%s): &quot;, PATRON_FECHA));
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qDyCQKJOEe2iHtsPQvX-yw" name="leerEntero" specification="_qDH68KJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    System.out.print(mensaje);
+    return Entrada.entero();
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qD4I4KJOEe2iHtsPQvX-yw" name="leerFecha" specification="_qD0egKJOEe2iHtsPQvX-yw">
+                      <language>JAVA</language>
+                      <body>
+    LocalDate fecha = null;
+    do {
+        try {
+            fecha = LocalDate.parse(mensaje, FORMATO_FECHA);
+        } catch (DateTimeParseException e) {
+            System.out.println(&quot;ERROR: La fecha introducida no es correcta.&quot;);
+        }
+    } while (fecha != null);
+    return fecha;
+</body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qBh_gKJOEe2iHtsPQvX-yw" name="Consola" visibility="private" method="_qBuMwKJOEe2iHtsPQvX-yw"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qByeMKJOEe2iHtsPQvX-yw" name="mostrarMenu" visibility="public" isStatic="true" method="_qB0TYKJOEe2iHtsPQvX-yw"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qB39wKJOEe2iHtsPQvX-yw" name="mostrarCabecera" visibility="public" isStatic="true" method="_qB82QKJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qB7BEKJOEe2iHtsPQvX-yw" name="mensaje" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qB_SgKJOEe2iHtsPQvX-yw" name="elegirOpcion" visibility="public" isStatic="true" method="_qCC84KJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qCBHsKJOEe2iHtsPQvX-yw" type="_1vQWQKIfEe2FfJdvgWWwEg" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qCGnQKJOEe2iHtsPQvX-yw" name="leerCadena" visibility="private" isStatic="true" method="_qCKRoKJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qCHOUKJOEe2iHtsPQvX-yw" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qCJDgKJOEe2iHtsPQvX-yw" name="mensaje" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qCK4sKJOEe2iHtsPQvX-yw" name="leerCliente" visibility="public" isStatic="true" method="_qCUpsKJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qCTbkKJOEe2iHtsPQvX-yw" type="_qCMG0aJOEe2iHtsPQvX-yw" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qCXF8KJOEe2iHtsPQvX-yw" name="leerClienteDni" visibility="public" isStatic="true" method="_qCawUKJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qCZiMKJOEe2iHtsPQvX-yw" type="_qCMG0aJOEe2iHtsPQvX-yw" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qCclgKJOEe2iHtsPQvX-yw" name="leerNombre" visibility="public" isStatic="true" method="_qCfo0KJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qCeasKJOEe2iHtsPQvX-yw" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qCiFEKJOEe2iHtsPQvX-yw" name="leerTelefono" visibility="public" isStatic="true" method="_qClIYKJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qCj6QKJOEe2iHtsPQvX-yw" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qCmWgKJOEe2iHtsPQvX-yw" name="leerTurismo" visibility="public" isStatic="true" method="_qCwukKJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qCvgcKJOEe2iHtsPQvX-yw" type="_qCnkoKJOEe2iHtsPQvX-yw" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qCyjwKJOEe2iHtsPQvX-yw" name="leerTurismoMatricula" visibility="public" isStatic="true" method="_qC1AAKJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qCzx4KJOEe2iHtsPQvX-yw" type="_qCnkoKJOEe2iHtsPQvX-yw" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qC21MKJOEe2iHtsPQvX-yw" name="leerAlquiler" visibility="public" isStatic="true" method="_qDB0UKJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qDAmMKJOEe2iHtsPQvX-yw" type="_qC4qYKJOEe2iHtsPQvX-yw" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qDDpgKJOEe2iHtsPQvX-yw" name="leerFechaDevolucion" visibility="public" isStatic="true" method="_qDGFwKJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qDFesKJOEe2iHtsPQvX-yw" type="_ptEWwKIfEe2FfJdvgWWwEg" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qDH68KJOEe2iHtsPQvX-yw" name="leerEntero" visibility="private" isStatic="true" method="_qDyCQKJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qDuX4KJOEe2iHtsPQvX-yw" type="_heoY4KIjEe2FfJdvgWWwEg" direction="return"/>
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qDvmAKJOEe2iHtsPQvX-yw" name="mensaje" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_qD0egKJOEe2iHtsPQvX-yw" name="leerFecha" visibility="private" isStatic="true" method="_qD4I4KJOEe2iHtsPQvX-yw">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qD1soKJOEe2iHtsPQvX-yw" type="_ptEWwKIfEe2FfJdvgWWwEg" direction="return"/>
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qD26wKJOEe2iHtsPQvX-yw" name="mensaje" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+                    </ownedOperation>
+                  </packagedElement>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Package" xmi:id="_rOeXwKIiEe2FfJdvgWWwEg" name="controlador">
+                  <packagedElement xmi:type="uml:Association" xmi:id="_-kYcgKIiEe2FfJdvgWWwEg" name="A_vista_controlador" memberEnd="_rOipMKIiEe2FfJdvgWWwEg _-ka4wKIiEe2FfJdvgWWwEg">
+                    <ownedEnd xmi:type="uml:Property" xmi:id="_-ka4wKIiEe2FfJdvgWWwEg" name="controlador" type="_rOfl4KIiEe2FfJdvgWWwEg" association="_-kYcgKIiEe2FfJdvgWWwEg">
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-kbf0KIiEe2FfJdvgWWwEg"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-kbf0aIiEe2FfJdvgWWwEg" value="1"/>
+                    </ownedEnd>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_GDcPEKIjEe2FfJdvgWWwEg" name="A_modelo_controlador" memberEnd="_rOgM8KIiEe2FfJdvgWWwEg _GDfSYKIjEe2FfJdvgWWwEg">
+                    <ownedEnd xmi:type="uml:Property" xmi:id="_GDfSYKIjEe2FfJdvgWWwEg" name="controlador" type="_rOfl4KIiEe2FfJdvgWWwEg" association="_GDcPEKIjEe2FfJdvgWWwEg">
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GDfSYaIjEe2FfJdvgWWwEg"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GDf5cKIjEe2FfJdvgWWwEg" value="1"/>
+                    </ownedEnd>
+                  </packagedElement>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_14SpQKOaEe2ZB8FyM7Ufdg" name="modelo">
+                <packagedElement xmi:type="uml:Package" xmi:id="_14e2gKOaEe2ZB8FyM7Ufdg" name="negocio">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_14ig4KOaEe2ZB8FyM7Ufdg" name="Alquileres" visibility="public">
+                    <ownedAttribute xmi:type="uml:Property" xmi:id="_147icKOaEe2ZB8FyM7Ufdg" name="coleccionAlquileres" visibility="private" type="_14qcsKOaEe2ZB8FyM7Ufdg" isUnique="false">
+                      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_14-lwKOaEe2ZB8FyM7Ufdg"/>
+                      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_15Aa8KOaEe2ZB8FyM7Ufdg" value="*"/>
+                    </ownedAttribute>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_15Q5oKOaEe2ZB8FyM7Ufdg" name="Alquileres" specification="_15BpEKOaEe2ZB8FyM7Ufdg">
+                      <language>JAVA</language>
+                      <body>
+    coleccionAlquileres = new ArrayList&lt;>();
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_15aqoKOaEe2ZB8FyM7Ufdg" name="get" specification="_15VLEKOaEe2ZB8FyM7Ufdg">
+                      <language>JAVA</language>
+                      <body>
+    return new ArrayList&lt;>(coleccionAlquileres);
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_15wo4KOaEe2ZB8FyM7Ufdg" name="get" specification="_15mQ0KOaEe2ZB8FyM7Ufdg">
+                      <language>JAVA</language>
+                      <body>
+    List&lt;Alquiler> alquileresCliente = new ArrayList&lt;>();
+    for (Alquiler alquiler : coleccionAlquileres) {
+        if (alquiler.getCliente().equals(cliente)) {
+            alquileresCliente.add(alquiler);
+        }
+    }
+    return alquileresCliente;
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_16CVsKOaEe2ZB8FyM7Ufdg" name="get" specification="_155LwKOaEe2ZB8FyM7Ufdg">
+                      <language>JAVA</language>
+                      <body>
+    List&lt;Alquiler> alquileresTurismo = new ArrayList&lt;>();
+    for (Alquiler alquiler : coleccionAlquileres) {
+        if (alquiler.getTurismo().equals(turismo)) {
+            alquileresTurismo.add(alquiler);
+        }
+    }
+    return alquileresTurismo;
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_16qAwKOaEe2ZB8FyM7Ufdg" name="getCantidad" specification="_16Ex8KOaEe2ZB8FyM7Ufdg">
+                      <language>JAVA</language>
+                      <body>
+    return coleccionAlquileres.size();
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_16x8kKOaEe2ZB8FyM7Ufdg" name="insertar" specification="_16tEEKOaEe2ZB8FyM7Ufdg">
+                      <language>JAVA</language>
+                      <body>
+    if (alquiler == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede insertar un alquiler nulo.&quot;);
+    }
+    comprobarAlquiler(alquiler.getCliente(), alquiler.getTurismo(), alquiler.getFechaAlquiler());
+    coleccionAlquileres.add(alquiler);
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_16_X8KOaEe2ZB8FyM7Ufdg" name="comprobarAlquiler" specification="_V0Q2oKObEe2ZB8FyM7Ufdg">
+                      <language>JAVA</language>
+                      <body>
+    for (Alquiler alquiler : coleccionAlquileres) {
+        if (alquiler.getFechaDevolucion() == null) {
+            if (alquiler.getCliente().equals(cliente)) {
+                throw new OperationNotSupportedException(&quot;ERROR: El cliente tiene otro alquiler sin devolver.&quot;);
+            } else if (alquiler.getTurismo().equals(turismo)) {
+                throw new OperationNotSupportedException(&quot;ERROR: El turismo está actualmente alquilado.&quot;);
+            }
+        } else {
+            if (alquiler.getCliente().equals(cliente) &amp;&amp; fechaAlquiler.compareTo(alquiler.getFechaDevolucion()) &lt;= 0) {
+                throw new OperationNotSupportedException(&quot;ERROR: El cliente tiene un alquiler posterior.&quot;);
+            } else if (alquiler.getTurismo().equals(turismo) &amp;&amp; fechaAlquiler.compareTo(alquiler.getFechaDevolucion()) &lt;= 0) {
+                throw new OperationNotSupportedException(&quot;ERROR: El turismo tiene un alquiler posterior.&quot;);
+            }
+        }
+    }
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_17Ih4KOaEe2ZB8FyM7Ufdg" name="devolver" specification="_4nq8cKOhEe2ZB8FyM7Ufdg">
+                      <language>JAVA</language>
+                      <body>
+    if (alquiler == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede devolver un alquiler nulo.&quot;);
+    }
+    Alquiler alquilerEncontrado = buscar(alquiler);
+    if (alquilerEncontrado == null) {
+        throw new OperationNotSupportedException(&quot;ERROR: No existe ningún alquiler igual.&quot;);
+    }
+    alquiler.devolver(fechaDevolucion);
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_17P2oKOaEe2ZB8FyM7Ufdg" name="buscar" specification="_17K-IKOaEe2ZB8FyM7Ufdg">
+                      <language>JAVA</language>
+                      <body>
+    if (alquiler == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede buscar un alquiler nulo.&quot;);
+    }
+    int indice = coleccionAlquileres.indexOf(alquiler);
+    return (indice == -1) ? null : coleccionAlquileres.get(indice);
+</body>
+                    </ownedBehavior>
+                    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_17WkUKOaEe2ZB8FyM7Ufdg" name="borrar" specification="_17S58KOaEe2ZB8FyM7Ufdg">
+                      <language>JAVA</language>
+                      <body>
+    if (alquiler == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede borrar un alquiler nulo.&quot;);
+    }
+    if (!coleccionAlquileres.contains(alquiler)) {
+        throw new OperationNotSupportedException(&quot;ERROR: No existe ningún alquiler igual.&quot;);
+    } else {
+        coleccionAlquileres.remove(alquiler);
+    }
+</body>
+                    </ownedBehavior>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_15BpEKOaEe2ZB8FyM7Ufdg" name="Alquileres" visibility="public" method="_15Q5oKOaEe2ZB8FyM7Ufdg"/>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_15VLEKOaEe2ZB8FyM7Ufdg" name="get" visibility="public" method="_15aqoKOaEe2ZB8FyM7Ufdg">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_15XAQKOaEe2ZB8FyM7Ufdg" type="_14qcsKOaEe2ZB8FyM7Ufdg" direction="return">
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_15ZcgKOaEe2ZB8FyM7Ufdg"/>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_15aDkKOaEe2ZB8FyM7Ufdg" value="*"/>
+                      </ownedParameter>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_15mQ0KOaEe2ZB8FyM7Ufdg" name="get" visibility="public" method="_15wo4KOaEe2ZB8FyM7Ufdg">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_15pUIKOaEe2ZB8FyM7Ufdg" type="_14qcsKOaEe2ZB8FyM7Ufdg" direction="return">
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_15rJUKOaEe2ZB8FyM7Ufdg"/>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_15sXcKOaEe2ZB8FyM7Ufdg" value="*"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_15uMoKOaEe2ZB8FyM7Ufdg" name="cliente" type="_15dG4KOaEe2ZB8FyM7Ufdg"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_155LwKOaEe2ZB8FyM7Ufdg" name="get" visibility="public" method="_16CVsKOaEe2ZB8FyM7Ufdg">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_157A8KOaEe2ZB8FyM7Ufdg" type="_14qcsKOaEe2ZB8FyM7Ufdg" direction="return">
+                        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_15-EQKOaEe2ZB8FyM7Ufdg"/>
+                        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_15_SYKOaEe2ZB8FyM7Ufdg" value="*"/>
+                      </ownedParameter>
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_16BHkKOaEe2ZB8FyM7Ufdg" name="turismo" type="_15x3AKOaEe2ZB8FyM7Ufdg"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_16Ex8KOaEe2ZB8FyM7Ufdg" name="getCantidad" visibility="public" method="_16qAwKOaEe2ZB8FyM7Ufdg">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_16oLkKOaEe2ZB8FyM7Ufdg" type="_heoY4KIjEe2FfJdvgWWwEg" direction="return"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_16tEEKOaEe2ZB8FyM7Ufdg" name="insertar" visibility="public" method="_16x8kKOaEe2ZB8FyM7Ufdg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_16uSMKOaEe2ZB8FyM7Ufdg" name="alquiler" type="_14qcsKOaEe2ZB8FyM7Ufdg"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_162OAKOaEe2ZB8FyM7Ufdg" name="comprobarAlquiler" visibility="private" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_164DMKOaEe2ZB8FyM7Ufdg" name="cliente" type="_15dG4KOaEe2ZB8FyM7Ufdg"/>
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_165RUKOaEe2ZB8FyM7Ufdg" name="turismo" type="_15x3AKOaEe2ZB8FyM7Ufdg"/>
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_168UoKOaEe2ZB8FyM7Ufdg" name="fechaAlquiler" type="_ptEWwKIfEe2FfJdvgWWwEg"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_17B0MKOaEe2ZB8FyM7Ufdg" name="devolver" visibility="public" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_17DCUKOaEe2ZB8FyM7Ufdg" name="alquiler" type="_14qcsKOaEe2ZB8FyM7Ufdg"/>
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_17E3gKOaEe2ZB8FyM7Ufdg" name="fechaDevolucion" type="_ptEWwKIfEe2FfJdvgWWwEg"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_17K-IKOaEe2ZB8FyM7Ufdg" name="buscar" visibility="public" method="_17P2oKOaEe2ZB8FyM7Ufdg">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_17MMQKOaEe2ZB8FyM7Ufdg" type="_14qcsKOaEe2ZB8FyM7Ufdg" direction="return"/>
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_17OBcKOaEe2ZB8FyM7Ufdg" name="alquiler" type="_14qcsKOaEe2ZB8FyM7Ufdg"/>
+                    </ownedOperation>
+                    <ownedOperation xmi:type="uml:Operation" xmi:id="_17S58KOaEe2ZB8FyM7Ufdg" name="borrar" visibility="public" method="_17WkUKOaEe2ZB8FyM7Ufdg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+                      <ownedParameter xmi:type="uml:Parameter" xmi:id="_17VWMKOaEe2ZB8FyM7Ufdg" name="alquiler" type="_14qcsKOaEe2ZB8FyM7Ufdg"/>
+                    </ownedOperation>
+                  </packagedElement>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hzWogKIfEe2FfJdvgWWwEg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hzXPkKIfEe2FfJdvgWWwEg" name="java">
+        <packagedElement xmi:type="uml:Package" xmi:id="_hzX2oKIfEe2FfJdvgWWwEg" name="lang">
+          <packagedElement xmi:type="uml:Class" xmi:id="_hzYdsKIfEe2FfJdvgWWwEg" name="String"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_nGCqIKIfEe2FfJdvgWWwEg" name="Object"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_psyp8KIfEe2FfJdvgWWwEg" name="time">
+          <packagedElement xmi:type="uml:Package" xmi:id="_pszRAKIfEe2FfJdvgWWwEg" name="format">
+            <packagedElement xmi:type="uml:Class" xmi:id="_pszRAaIfEe2FfJdvgWWwEg" name="DateTimeFormatter"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ptEWwKIfEe2FfJdvgWWwEg" name="LocalDate"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nF6HQKIfEe2FfJdvgWWwEg" name="importedTypes">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nF6HQaIfEe2FfJdvgWWwEg" name="primitivetype">
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_nF6uUKIfEe2FfJdvgWWwEg" name="boolean"/>
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_nGBcAaIfEe2FfJdvgWWwEg" name="int"/>
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_heoY4KIjEe2FfJdvgWWwEg" name="Integer"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ptZt8KIfEe2FfJdvgWWwEg" name="javax">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ptZt8aIfEe2FfJdvgWWwEg" name="naming">
+          <packagedElement xmi:type="uml:Class" xmi:id="_ptZt8qIfEe2FfJdvgWWwEg" name="OperationNotSupportedException"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_x5DgwKIfEe2FfJdvgWWwEg" name="org">
+        <packagedElement xmi:type="uml:Package" xmi:id="_x5DgwaIfEe2FfJdvgWWwEg" name="iesalandalus">
+          <packagedElement xmi:type="uml:Package" xmi:id="_x5DgwqIfEe2FfJdvgWWwEg" name="programacion">
+            <packagedElement xmi:type="uml:Package" xmi:id="_x5Dgw6IfEe2FfJdvgWWwEg" name="alquilervehiculos">
+              <packagedElement xmi:type="uml:Package" xmi:id="_x5EH0KIfEe2FfJdvgWWwEg" name="mvc">
+                <packagedElement xmi:type="uml:Package" xmi:id="_x5EH0aIfEe2FfJdvgWWwEg" name="vista">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_x5EH0qIfEe2FfJdvgWWwEg" name="Vista"/>
+                </packagedElement>
+                <packagedElement xmi:type="uml:Package" xmi:id="_qCLfwKJOEe2iHtsPQvX-yw" name="modelo">
+                  <packagedElement xmi:type="uml:Package" xmi:id="_qCMG0KJOEe2iHtsPQvX-yw" name="dominio">
+                    <packagedElement xmi:type="uml:Class" xmi:id="_qCMG0aJOEe2iHtsPQvX-yw" name="Cliente"/>
+                    <packagedElement xmi:type="uml:Class" xmi:id="_qCnkoKJOEe2iHtsPQvX-yw" name="Turismo"/>
+                    <packagedElement xmi:type="uml:Class" xmi:id="_qC4qYKJOEe2iHtsPQvX-yw" name="Alquiler"/>
+                  </packagedElement>
+                </packagedElement>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_14oAcKOaEe2ZB8FyM7Ufdg" name="modelo">
+                <packagedElement xmi:type="uml:Package" xmi:id="_14p1oKOaEe2ZB8FyM7Ufdg" name="dominio">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_14qcsKOaEe2ZB8FyM7Ufdg" name="Alquiler"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_15dG4KOaEe2ZB8FyM7Ufdg" name="Cliente"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_15x3AKOaEe2ZB8FyM7Ufdg" name="Turismo"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MvT3EKJYEe2iHtsPQvX-yw" name="org.iesalandalus.programacion.alquilervehiculos">
+      <packagedElement xmi:type="uml:Package" xmi:id="_lTFh8KIjEe2FfJdvgWWwEg" name="vista">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_kO9oUKJsEe2iHtsPQvX-yw" annotatedElement="_1vQWQKIfEe2FfJdvgWWwEg">
+          <body>- String texto
+------------------------------------------------------
+- Opcion(texto: String)
+- esOrdinalValido(ordinal: int): boolean
++ get(ordinal: int): Opcion
++ toString(): String
+</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_1vQWQKIfEe2FfJdvgWWwEg" name="Opcion" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_1vb8cKIfEe2FfJdvgWWwEg" name="texto" visibility="private" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_1vdxoKIfEe2FfJdvgWWwEg" name="Opcion" visibility="private">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_1viqIKIfEe2FfJdvgWWwEg" name="texto" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_1vj4QKIfEe2FfJdvgWWwEg" name="esOrdinalValido" visibility="private" isStatic="true">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_1vkfUKIfEe2FfJdvgWWwEg" type="_nF6uUKIfEe2FfJdvgWWwEg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_1vlGYKIfEe2FfJdvgWWwEg" name="ordinal" type="_nGBcAaIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_1vmUgKIfEe2FfJdvgWWwEg" name="get" visibility="public" isStatic="true">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_1vnioKIfEe2FfJdvgWWwEg" type="_1vQWQKIfEe2FfJdvgWWwEg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_1vnioaIfEe2FfJdvgWWwEg" name="ordinal" type="_nGBcAaIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_1vowwKIfEe2FfJdvgWWwEg" name="toString" visibility="public">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_1vpX0KIfEe2FfJdvgWWwEg" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_heo_8KIjEe2FfJdvgWWwEg" name="esOrdinalValido" visibility="private" isStatic="true">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_heqOEKIjEe2FfJdvgWWwEg" type="_nF6uUKIfEe2FfJdvgWWwEg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_heq1IKIjEe2FfJdvgWWwEg" name="ordinal" type="_heoY4KIjEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_heq1IaIjEe2FfJdvgWWwEg" name="get" visibility="public" isStatic="true">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hercMKIjEe2FfJdvgWWwEg" type="_1vQWQKIfEe2FfJdvgWWwEg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hercMaIjEe2FfJdvgWWwEg" name="ordinal" type="_heoY4KIjEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vUAoKIfEe2FfJdvgWWwEg" name="SALIR">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vUAoaIfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Salir.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vUnsKIfEe2FfJdvgWWwEg" name="INSERTAR_CLIENTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vUnsaIfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Insertar cliente.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vUnsqIfEe2FfJdvgWWwEg" name="INSERTAR_TURISMO">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vUns6IfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Insertar turismo.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vVOwKIfEe2FfJdvgWWwEg" name="INSERTAR_ALQUILER">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vVOwaIfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Insertar alquiler.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vVOwqIfEe2FfJdvgWWwEg" name="BUSCAR_CLIENTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vVOw6IfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Buscar cliente.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vV10KIfEe2FfJdvgWWwEg" name="BUSCAR_TURSIMO">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vV10aIfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Buscar turismo.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vV10qIfEe2FfJdvgWWwEg" name="BUSCAR_ALQUILER">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vV106IfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Buscar alquiler.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vWc4KIfEe2FfJdvgWWwEg" name="MODIFICAR_CLIENTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vWc4aIfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Modificar cliente.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vWc4qIfEe2FfJdvgWWwEg" name="DEVOLVER_ALQUILER">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vWc46IfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Devolver alquiler.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vXD8KIfEe2FfJdvgWWwEg" name="BORRAR_CLIENTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vXD8aIfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Borrar cliente.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vXD8qIfEe2FfJdvgWWwEg" name="BORRAR_TURISMO">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vXD86IfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Borrar turismo.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vXrAKIfEe2FfJdvgWWwEg" name="BORRAR_ALQUILER">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vXrAaIfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Borar alquiler.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vXrAqIfEe2FfJdvgWWwEg" name="LISTAR_CLIENTES">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vXrA6IfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Lisar clientes.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vYSEKIfEe2FfJdvgWWwEg" name="LISTAR_TURISMOS">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vYSEaIfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Listar turismos.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vYSEqIfEe2FfJdvgWWwEg" name="LISTAR_ALQUILERES">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vY5IKIfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Listar alquileres.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vY5IaIfEe2FfJdvgWWwEg" name="LISTAR_ALQUILERES_CLIENTE">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vZgMKIfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Listar alquileres de un cliente.&quot;</body>
+            </specification>
+          </ownedLiteral>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_1vZgMaIfEe2FfJdvgWWwEg" name="LISTAR_ALQUILERES_TURISMO">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_1vaHQKIfEe2FfJdvgWWwEg" name="specification">
+              <language>JAVA</language>
+              <body>&quot;Listar alquileres de un turismo.&quot;</body>
+            </specification>
+          </ownedLiteral>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_zNEGUKIfEe2FfJdvgWWwEg" name="Vista" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_zNIXwKIfEe2FfJdvgWWwEg" name="controlador" visibility="private" type="_rOfl4KIiEe2FfJdvgWWwEg" isUnique="false" aggregation="composite" association="_RXU-IKIjEe2FfJdvgWWwEg"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNJl4aIfEe2FfJdvgWWwEg" name="setControlador" specification="_zNI-0KIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    if (controlador == null) {
+        throw new NullPointerException(&quot;ERROR: El controlador no puede ser nulo.&quot;);
+    }
+    this.controlador = controlador;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNKM8aIfEe2FfJdvgWWwEg" name="comenzar" specification="_zNKM8KIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Opcion opcion;
+    do {
+        Consola.mostrarMenu();
+        opcion = Consola.elegirOpcion();
+        ejecutar(opcion);
+    } while (opcion != Opcion.SALIR);
+    controlador.terminar();
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNK0AaIfEe2FfJdvgWWwEg" name="terminar" specification="_zNK0AKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    System.out.println(&quot;Hasta luego Lucasss!!!&quot;);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNPsgKIfEe2FfJdvgWWwEg" name="ejecutar" specification="_zNOeYaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    switch(opcion) {
+        case SALIR:
+            break;
+        case INSERTAR_CLIENTE:
+            insertarCliente();
+            break;
+        case INSERTAR_TURISMO:
+            insertarTurismo();
+            break;
+        case INSERTAR_ALQUILER:
+            insertarAlquiler();
+            break;
+        case BUSCAR_CLIENTE:
+            buscarCliente();
+            break;
+        case BUSCAR_TURSIMO:
+            buscarTurismo();
+            break;
+        case BUSCAR_ALQUILER:
+            buscarAlquiler();
+            break;
+        case MODIFICAR_CLIENTE:
+            modificarCliente();
+            break;
+        case DEVOLVER_ALQUILER:
+            devolverAqluiler();
+            break;
+        case BORRAR_CLIENTE:
+            borrarCliente();
+            break;
+        case BORRAR_TURISMO:
+            borrarTurismo();
+            break;
+        case BORRAR_ALQUILER:
+            borrarAlquiler();
+            break;
+        case LISTAR_CLIENTES:
+            listarClientes();
+            break;
+        case LISTAR_TURISMOS:
+            listarTurismos();
+            break;
+        case LISTAR_ALQUILERES:
+            listarAlquileres();
+            break;
+        case LISTAR_ALQUILERES_CLIENTE:
+            listarAqluileresCliente();
+            break;
+        case LISTAR_ALQUILERES_TURISMO:
+            listarAlquileresTurismo();
+            break;
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNQTkKIfEe2FfJdvgWWwEg" name="insertarCliente" specification="_zNPsgaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Insertar Cliente&quot;);
+    try {
+        controlador.insertar(Consola.leerCliente());
+        System.out.println(&quot;Cliente insertado correctamente.&quot;);
+    } catch (OperationNotSupportedExceptionIllegalArgumentException | NullPointerException |  e) {
+        System.out.println(e.getMessage());
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNQ6oKIfEe2FfJdvgWWwEg" name="insertarTurismo" specification="_zNQTkaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Insertar Turismo&quot;);
+    try {
+        controlador.insertar(Consola.leerTurismo());
+        System.out.println(&quot;Turismo insertado correctamente.&quot;);
+    } catch (OperationNotSupportedExceptionIllegalArgumentException | NullPointerException |  e) {
+        System.out.println(e.getMessage());
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNRhsKIfEe2FfJdvgWWwEg" name="insertarAlquiler" specification="_zNQ6oaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Insertar Alquiler&quot;);
+    try {
+        controlador.insertar(Consola.leerCliente());
+        System.out.println(&quot;Alquiler insertado correctamente.&quot;);
+    } catch (OperationNotSupportedExceptionIllegalArgumentException | NullPointerException |  e) {
+        System.out.println(e.getMessage());
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNSIwKIfEe2FfJdvgWWwEg" name="buscarCliente" specification="_zNRhsaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Buscar Cliente&quot;);
+    try {
+        Cliente cliente = controlador.buscar(Consola.leerClienteDni());
+        System.out.println((cliente != null) ? cliente : &quot;No existe cliente con dicho DNI.&quot;);
+    } catch (IllegalArgumentExceptionNullPointerException |  e) {
+        System.out.println(e.getMessage());
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNSv0KIfEe2FfJdvgWWwEg" name="buscarTurismo" specification="_zNSIwaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Buscar Turismo&quot;);
+    try {
+        Turismo turismo = controlador.buscar(Consola.leerTurismoMatricula());
+        System.out.println((turismo != null) ? turismo : &quot;No existe turismo con dicha matrícula.&quot;);
+    } catch (IllegalArgumentExceptionNullPointerException |  e) {
+        System.out.println(e.getMessage());
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNTW4KIfEe2FfJdvgWWwEg" name="buscarAlquiler" specification="_zNSv0aIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Buscar Alquiler&quot;);
+    try {
+        Alquiler alquiler = controlador.buscar(Consola.leerAlquiler());
+        System.out.println((alquiler != null) ? alquiler : &quot;No existe alquiler para dicho alquiler.&quot;);
+    } catch (IllegalArgumentExceptionNullPointerException |  e) {
+        System.out.println(e.getMessage());
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNT98KIfEe2FfJdvgWWwEg" name="modificarCliente" specification="_zNTW4aIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Modificar Cliente&quot;);
+    try {
+        controlador.modificar(Consola.leerClienteDni(), Consola.leerTelefono());
+    } catch (OperationNotSupportedExceptionIllegalArgumentException | NullPointerException |  e) {
+        System.out.println(e.getMessage());
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNUlAKIfEe2FfJdvgWWwEg" name="devolverAqluiler" specification="_zNT98aIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Devolver Alquiler&quot;);
+    try {
+        controlador.devolver(Consola.leerAlquiler(), Consola.leerFechaDevolucion());
+    } catch (OperationNotSupportedExceptionIllegalArgumentException | NullPointerException |  e) {
+        System.out.println(e.getMessage());
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNUlAqIfEe2FfJdvgWWwEg" name="borrarCliente" specification="_zNUlAaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Borrar Cliente&quot;);
+    try {
+        controlador.borrar(Consola.leerClienteDni());
+    } catch (OperationNotSupportedExceptionNullPointerException |  e) {
+        System.out.println(e.getMessage());
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNVMEaIfEe2FfJdvgWWwEg" name="borrarTurismo" specification="_zNVMEKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Borrar Turismo&quot;);
+    try {
+        controlador.borrar(Consola.leerTurismoMatricula());
+    } catch (OperationNotSupportedExceptionNullPointerException |  e) {
+        System.out.println(e.getMessage());
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNVzIaIfEe2FfJdvgWWwEg" name="borrarAlquiler" specification="_zNVzIKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Borrar Alquiler&quot;);
+    try {
+        controlador.borrar(Consola.leerAlquiler());
+    } catch (OperationNotSupportedExceptionNullPointerException |  e) {
+        System.out.println(e.getMessage());
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNWaMaIfEe2FfJdvgWWwEg" name="listarClientes" specification="_zNWaMKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Listar Clientes&quot;);
+    List&lt;Cliente> clientes = controlador.getClientes();
+    if (!clientes.isEmpty()) {
+        for (Cliente cliente : clientes) {
+            System.out.println(cliente);
+        }
+    } else {
+        System.out.println(&quot;No hay clientes que mostrar.&quot;);
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNXBQaIfEe2FfJdvgWWwEg" name="listarTurismos" specification="_zNXBQKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Listar Turismos&quot;);
+    List&lt;Turismo> turismos = controlador.getTurismos();
+    if (!turismos.isEmpty()) {
+        for (Turismo turismo : turismos) {
+            System.out.println(turismo);
+        }
+    } else {
+        System.out.println(&quot;No hay turismos que mostrar.&quot;);
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNXoUaIfEe2FfJdvgWWwEg" name="listarAlquileres" specification="_zNXoUKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Listar Alquileres&quot;);
+    List&lt;Alquiler> alquileres = controlador.getAlquileres();
+    if (!alquileres.isEmpty()) {
+        for (Alquiler alquiler : alquileres) {
+            System.out.println(alquiler);
+        }
+    } else {
+        System.out.println(&quot;No hay alquileres que mostrar.&quot;);
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNYPYaIfEe2FfJdvgWWwEg" name="listarAqluileresCliente" specification="_zNYPYKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Listar Alquileres Cliente&quot;);
+    List&lt;Alquiler> alquileresCliente = controlador.getAlquileres();
+    if (!alquileresCliente.isEmpty()) {
+        for (Alquiler alquiler : alquileresCliente) {
+            System.out.println(alquiler);
+        }
+    } else {
+        System.out.println(&quot;No hay alquileres que mostrar para dicho cliente.&quot;);
+    }
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNY2caIfEe2FfJdvgWWwEg" name="listarAlquileresTurismo" specification="_zNY2cKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    Consola.mostrarCabecera(&quot;Listar Alquileres Turismo&quot;);
+    List&lt;Alquiler> alquileresTurismo = controlador.getAlquileres();
+    if (!alquileresTurismo.isEmpty()) {
+        for (Alquiler alquiler : alquileresTurismo) {
+            System.out.println(alquiler);
+        }
+    } else {
+        System.out.println(&quot;No hay alquileres que mostrar para dicho turismo.&quot;);
+    }
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNI-0KIfEe2FfJdvgWWwEg" name="setControlador" visibility="public" method="_zNJl4aIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_hbIY8KIjEe2FfJdvgWWwEg" name="controlador" type="_rOfl4KIiEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNKM8KIfEe2FfJdvgWWwEg" name="comenzar" visibility="public" method="_zNKM8aIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNK0AKIfEe2FfJdvgWWwEg" name="terminar" visibility="public" method="_zNK0AaIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNOeYaIfEe2FfJdvgWWwEg" name="ejecutar" visibility="private" method="_zNPsgKIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_zNPFcKIfEe2FfJdvgWWwEg" name="opcion" type="_1vQWQKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNPsgaIfEe2FfJdvgWWwEg" name="insertarCliente" visibility="private" method="_zNQTkKIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNQTkaIfEe2FfJdvgWWwEg" name="insertarTurismo" visibility="private" method="_zNQ6oKIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNQ6oaIfEe2FfJdvgWWwEg" name="insertarAlquiler" visibility="private" method="_zNRhsKIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNRhsaIfEe2FfJdvgWWwEg" name="buscarCliente" visibility="private" method="_zNSIwKIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNSIwaIfEe2FfJdvgWWwEg" name="buscarTurismo" visibility="private" method="_zNSv0KIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNSv0aIfEe2FfJdvgWWwEg" name="buscarAlquiler" visibility="private" method="_zNTW4KIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNTW4aIfEe2FfJdvgWWwEg" name="modificarCliente" visibility="private" method="_zNT98KIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNT98aIfEe2FfJdvgWWwEg" name="devolverAqluiler" visibility="private" method="_zNUlAKIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNUlAaIfEe2FfJdvgWWwEg" name="borrarCliente" visibility="private" method="_zNUlAqIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNVMEKIfEe2FfJdvgWWwEg" name="borrarTurismo" visibility="private" method="_zNVMEaIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNVzIKIfEe2FfJdvgWWwEg" name="borrarAlquiler" visibility="private" method="_zNVzIaIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNWaMKIfEe2FfJdvgWWwEg" name="listarClientes" visibility="private" method="_zNWaMaIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNXBQKIfEe2FfJdvgWWwEg" name="listarTurismos" visibility="private" method="_zNXBQaIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNXoUKIfEe2FfJdvgWWwEg" name="listarAlquileres" visibility="private" method="_zNXoUaIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNYPYKIfEe2FfJdvgWWwEg" name="listarAqluileresCliente" visibility="private" method="_zNYPYaIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_zNY2cKIfEe2FfJdvgWWwEg" name="listarAlquileresTurismo" visibility="private" method="_zNY2caIfEe2FfJdvgWWwEg"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_yL3LMKIjEe2FfJdvgWWwEg" name="controlador">
+        <packagedElement xmi:type="uml:Class" xmi:id="_rOfl4KIiEe2FfJdvgWWwEg" name="Controlador" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_rOgM8KIiEe2FfJdvgWWwEg" name="modelo" visibility="private" type="_wE8e0KIfEe2FfJdvgWWwEg" isUnique="false" aggregation="composite" association="_GDcPEKIjEe2FfJdvgWWwEg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_rOipMKIiEe2FfJdvgWWwEg" name="vista" visibility="private" type="_zNEGUKIfEe2FfJdvgWWwEg" isUnique="false" aggregation="composite" association="_-kYcgKIiEe2FfJdvgWWwEg"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOlsgaIiEe2FfJdvgWWwEg" name="Controlador" specification="_rOjQQKIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    if (modelo == null) {
+        throw new NullPointerException(&quot;ERROR: El modelo no puede ser nulo.&quot;);
+    }
+    if (vista == null) {
+        throw new NullPointerException(&quot;ERROR: La vista no puede ser nula.&quot;);
+    }
+    this.modelo = modelo;
+    this.vista = vista;
+    this.vista.setControlador(this);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOmTkaIiEe2FfJdvgWWwEg" name="comenzar" specification="_rOmTkKIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    vista.comenzar();
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOm6oKIiEe2FfJdvgWWwEg" name="terminar" specification="_rOmTkqIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    vista.terminar();
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOoIwKIiEe2FfJdvgWWwEg" name="insertar" specification="_rOm6oaIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    modelo.insertar(cliente);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOpW4KIiEe2FfJdvgWWwEg" name="insertar" specification="_rOoIwaIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    modelo.insertar(turismo);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOqlAKIiEe2FfJdvgWWwEg" name="insertar" specification="_rOpW4aIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    modelo.insertar(alquiler);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOrMEqIiEe2FfJdvgWWwEg" name="buscar" specification="_rOqlAaIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    return modelo.buscar(cliente);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOsaMaIiEe2FfJdvgWWwEg" name="buscar" specification="_rOrzIKIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    return modelo.buscar(turismo);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOtoUaIiEe2FfJdvgWWwEg" name="buscar" specification="_rOtBQKIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    return modelo.buscar(alquiler);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOu2caIiEe2FfJdvgWWwEg" name="modificar" specification="_rOuPYKIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    modelo.modificar(cliente, telefono);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOwEkaIiEe2FfJdvgWWwEg" name="devolver" specification="_rOvdgKIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    modelo.devolver(alquiler, fechaDevolucion);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOxSsKIiEe2FfJdvgWWwEg" name="borrar" specification="_rOwroKIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    modelo.borrar(cliente);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOx5waIiEe2FfJdvgWWwEg" name="borrar" specification="_rOxSsaIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    modelo.borrar(turismo);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOzH4KIiEe2FfJdvgWWwEg" name="borrar" specification="_rOyg0KIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    modelo.borrar(alquiler);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rOzu86IiEe2FfJdvgWWwEg" name="getClientes" specification="_rOzH4aIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    return modelo.getClientes();
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rO09EqIiEe2FfJdvgWWwEg" name="getTurismos" specification="_rO0WAKIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    return modelo.getTurismos();
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rO1kI6IiEe2FfJdvgWWwEg" name="getAlquileres" specification="_rO09E6IiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    return modelo.getAlquileres();
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rO3ZUKIiEe2FfJdvgWWwEg" name="getAlquileres" specification="_rO2LMKIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    return modelo.getAlquileres(cliente);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_rO4AY6IiEe2FfJdvgWWwEg" name="getAlquileres" specification="_rO3ZUaIiEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    return modelo.getAlquileres(turismo);
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOjQQKIiEe2FfJdvgWWwEg" name="Controlador" visibility="public" method="_rOlsgaIiEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOlFcKIiEe2FfJdvgWWwEg" name="modelo" type="_wE8e0KIfEe2FfJdvgWWwEg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOlsgKIiEe2FfJdvgWWwEg" name="vista" type="_zNEGUKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOmTkKIiEe2FfJdvgWWwEg" name="comenzar" visibility="public" method="_rOmTkaIiEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOmTkqIiEe2FfJdvgWWwEg" name="terminar" visibility="public" method="_rOm6oKIiEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOm6oaIiEe2FfJdvgWWwEg" name="insertar" visibility="public" method="_rOoIwKIiEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOnhsKIiEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOoIwaIiEe2FfJdvgWWwEg" name="insertar" visibility="public" method="_rOpW4KIiEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOov0KIiEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOpW4aIiEe2FfJdvgWWwEg" name="insertar" visibility="public" method="_rOqlAKIiEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOp98KIiEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOqlAaIiEe2FfJdvgWWwEg" name="buscar" visibility="public" method="_rOrMEqIiEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOrMEKIiEe2FfJdvgWWwEg" type="_nFFA0KIfEe2FfJdvgWWwEg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOrMEaIiEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOrzIKIiEe2FfJdvgWWwEg" name="buscar" visibility="public" method="_rOsaMaIiEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOrzIaIiEe2FfJdvgWWwEg" type="_oqdDMKIfEe2FfJdvgWWwEg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOsaMKIiEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOtBQKIiEe2FfJdvgWWwEg" name="buscar" visibility="public" method="_rOtoUaIiEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOtBQaIiEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOtoUKIiEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOuPYKIiEe2FfJdvgWWwEg" name="modificar" visibility="public" method="_rOu2caIiEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOuPYaIiEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_SPU38KI1Ee2FfJdvgWWwEg" name="nombre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOu2cKIiEe2FfJdvgWWwEg" name="telefono" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOvdgKIiEe2FfJdvgWWwEg" name="devolver" visibility="public" method="_rOwEkaIiEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOvdgaIiEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOwEkKIiEe2FfJdvgWWwEg" name="fechaDevolucion" type="_ptEWwKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOwroKIiEe2FfJdvgWWwEg" name="borrar" visibility="public" method="_rOxSsKIiEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOwroaIiEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOxSsaIiEe2FfJdvgWWwEg" name="borrar" visibility="public" method="_rOx5waIiEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOx5wKIiEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOyg0KIiEe2FfJdvgWWwEg" name="borrar" visibility="public" method="_rOzH4KIiEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOyg0aIiEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rOzH4aIiEe2FfJdvgWWwEg" name="getClientes" visibility="public" method="_rOzu86IiEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rOzu8KIiEe2FfJdvgWWwEg" type="_nFFA0KIfEe2FfJdvgWWwEg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rOzu8aIiEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rOzu8qIiEe2FfJdvgWWwEg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rO0WAKIiEe2FfJdvgWWwEg" name="getTurismos" visibility="public" method="_rO09EqIiEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rO0WAaIiEe2FfJdvgWWwEg" type="_oqdDMKIfEe2FfJdvgWWwEg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rO09EKIiEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rO09EaIiEe2FfJdvgWWwEg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rO09E6IiEe2FfJdvgWWwEg" name="getAlquileres" visibility="public" method="_rO1kI6IiEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rO1kIKIiEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rO1kIaIiEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rO1kIqIiEe2FfJdvgWWwEg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rO2LMKIiEe2FfJdvgWWwEg" name="getAlquileres" visibility="public" method="_rO3ZUKIiEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rO2LMaIiEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rO2yQKIiEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rO2yQaIiEe2FfJdvgWWwEg" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rO2yQqIiEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_rO3ZUaIiEe2FfJdvgWWwEg" name="getAlquileres" visibility="public" method="_rO4AY6IiEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rO3ZUqIiEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rO4AYKIiEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rO4AYaIiEe2FfJdvgWWwEg" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_rO4AYqIiEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_oi8TsKIkEe2FfJdvgWWwEg" name="modelo">
+        <packagedElement xmi:type="uml:Class" xmi:id="_wE8e0KIfEe2FfJdvgWWwEg" name="Modelo" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_wE-7EKIfEe2FfJdvgWWwEg" name="clientes" visibility="private" type="_r69KoKIfEe2FfJdvgWWwEg" isUnique="false" aggregation="composite" association="_AALXAKIhEe2FfJdvgWWwEg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_wFClcKIfEe2FfJdvgWWwEg" name="turismos" visibility="private" type="_tr3uoKIfEe2FfJdvgWWwEg" isUnique="false" aggregation="composite" association="_AvLLAKIhEe2FfJdvgWWwEg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_wFFBsKIfEe2FfJdvgWWwEg" name="alquileres" visibility="private" type="_vGpqkKIfEe2FfJdvgWWwEg" isUnique="false" aggregation="composite" association="_BjHJYKIhEe2FfJdvgWWwEg"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFHd8aIfEe2FfJdvgWWwEg" name="Modelo" specification="_wFFBsaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    comenzar();
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFIFAaIfEe2FfJdvgWWwEg" name="comenzar" specification="_wFIFAKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    clientes = new Clientes();
+    turismos = new Turismos();
+    alquileres = new Alquileres();
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFIsEKIfEe2FfJdvgWWwEg" name="terminar" specification="_wFIFAqIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    System.out.println(&quot;Modelo terminado.&quot;);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFJTIaIfEe2FfJdvgWWwEg" name="insertar" specification="_wFIsEaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    clientes.insertar(new Cliente(cliente));
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFKhQKIfEe2FfJdvgWWwEg" name="insertar" specification="_wFJ6MKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    turismos.insertar(new Turismo(turismo));
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFLvYaIfEe2FfJdvgWWwEg" name="insertar" specification="_wFLIUKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    if (alquiler == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede realizar un alquiler nulo.&quot;);
+    }
+    Cliente cliente = clientes.buscar(alquiler.getCliente());
+    if (cliente == null) {
+        throw new OperationNotSupportedException(&quot;ERROR: No existe el cliente del alquiler.&quot;);
+    }
+    Turismo turismo = turismos.buscar(alquiler.getTurismo());
+    if (turismo == null) {
+        throw new OperationNotSupportedException(&quot;ERROR: No existe el turismo del alquiler.&quot;);
+    }
+    alquileres.insertar(new Alquiler(cliente, turismo, alquiler.getFechaAlquiler()));
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFNkkKIfEe2FfJdvgWWwEg" name="buscar" specification="_wFMWcKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    return new Cliente(clientes.buscar(cliente));
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFOysKIfEe2FfJdvgWWwEg" name="buscar" specification="_wFNkkaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    return new Turismo(turismos.buscar(turismo));
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFQA0aIfEe2FfJdvgWWwEg" name="buscar" specification="_wFPZwKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    return new Alquiler(alquileres.buscar(alquiler));
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFRO8aIfEe2FfJdvgWWwEg" name="modificar" specification="_wFQn4KIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    clientes.modificar(cliente, telefono);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFTEIKIfEe2FfJdvgWWwEg" name="devolver" specification="_wFR2AKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    alquiler = alquileres.buscar(alquiler);
+    if (alquiler == null) {
+        throw new OperationNotSupportedException(&quot;ERROR: No existe el alquiler a devolver.&quot;);
+    }
+    alquiler.devolver(fechaDevolucion);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFUSQKIfEe2FfJdvgWWwEg" name="borrar" specification="_wFTrMKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    List&lt;Alquiler> alquileresCliente = alquileres.get(cliente);
+    for (Alquiler alquiler : alquileresCliente) {
+        alquileres.borrar(alquiler);
+    }
+    clientes.borrar(cliente);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFWHcKIfEe2FfJdvgWWwEg" name="borrar" specification="_wFU5UKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    List&lt;Alquiler> alquileresTurismo = alquileres.get(turismo);
+    for (Alquiler alquiler : alquileresTurismo) {
+        alquileres.borrar(alquiler);
+    }
+    turismos.borrar(turismo);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFXVkKIfEe2FfJdvgWWwEg" name="borrar" specification="_wFWHcaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    alquileres.borrar(alquiler);
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFYjsKIfEe2FfJdvgWWwEg" name="getClientes" specification="_wFXVkaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    List&lt;Cliente> copiaClientes = new ArrayList&lt;>();
+    for (Cliente cliente : clientes.get()) {
+        copiaClientes.add(new Cliente(cliente));
+    }
+    return copiaClientes;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFZKwqIfEe2FfJdvgWWwEg" name="getTurismos" specification="_wFYjsaIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    List&lt;Turismo> copiaTurismos = new ArrayList&lt;>();
+    for (Turismo turismo : turismos.get()) {
+        copiaTurismos.add(new Turismo(turismo));
+    }
+    return copiaTurismos;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFaY4KIfEe2FfJdvgWWwEg" name="getAlquileres" specification="_wFZx0KIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    List&lt;Alquiler> alquileresExistentes = new ArrayList&lt;>();
+    for (Alquiler alquiler : alquileres.get()) {
+        alquileresExistentes.add(new Alquiler(alquiler));
+    }
+    return alquileresExistentes;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFbnAaIfEe2FfJdvgWWwEg" name="getAlquileres" specification="_wFa_8KIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    List&lt;Alquiler> alquileresCliente = new ArrayList&lt;>();
+    for (Alquiler alquiler : alquileres.get(cliente)) {
+        alquileresCliente.add(new Alquiler(alquiler));
+    }
+    return alquileresCliente;
+</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wFdcMKIfEe2FfJdvgWWwEg" name="getAlquileres" specification="_wFcOEKIfEe2FfJdvgWWwEg">
+            <language>JAVA</language>
+            <body>
+    List&lt;Alquiler> alquileresTurismo = new ArrayList&lt;>();
+    for (Alquiler alquiler : alquileres.get(turismo)) {
+        alquileresTurismo.add(new Alquiler(alquiler));
+    }
+    return alquileresTurismo;
+</body>
+          </ownedBehavior>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFFBsaIfEe2FfJdvgWWwEg" name="Modelo" visibility="public" method="_wFHd8aIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFIFAKIfEe2FfJdvgWWwEg" name="comenzar" visibility="public" method="_wFIFAaIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFIFAqIfEe2FfJdvgWWwEg" name="terminar" visibility="public" method="_wFIsEKIfEe2FfJdvgWWwEg"/>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFIsEaIfEe2FfJdvgWWwEg" name="insertar" visibility="public" method="_wFJTIaIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFJTIKIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFJ6MKIfEe2FfJdvgWWwEg" name="insertar" visibility="public" method="_wFKhQKIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFJ6MaIfEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFLIUKIfEe2FfJdvgWWwEg" name="insertar" visibility="public" method="_wFLvYaIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFLvYKIfEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFMWcKIfEe2FfJdvgWWwEg" name="buscar" visibility="public" method="_wFNkkKIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFM9gKIfEe2FfJdvgWWwEg" type="_nFFA0KIfEe2FfJdvgWWwEg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFM9gaIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFNkkaIfEe2FfJdvgWWwEg" name="buscar" visibility="public" method="_wFOysKIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFOLoKIfEe2FfJdvgWWwEg" type="_oqdDMKIfEe2FfJdvgWWwEg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFOLoaIfEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFPZwKIfEe2FfJdvgWWwEg" name="buscar" visibility="public" method="_wFQA0aIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFPZwaIfEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFQA0KIfEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFQn4KIfEe2FfJdvgWWwEg" name="modificar" visibility="public" method="_wFRO8aIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFQn4aIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_PnMYEKI1Ee2FfJdvgWWwEg" name="nombre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFRO8KIfEe2FfJdvgWWwEg" name="telefono" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFR2AKIfEe2FfJdvgWWwEg" name="devolver" visibility="public" method="_wFTEIKIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFSdEKIfEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFSdEaIfEe2FfJdvgWWwEg" name="fechaDevolucion" type="_ptEWwKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFTrMKIfEe2FfJdvgWWwEg" name="borrar" visibility="public" method="_wFUSQKIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFTrMaIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFU5UKIfEe2FfJdvgWWwEg" name="borrar" visibility="public" method="_wFWHcKIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFVgYKIfEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFWHcaIfEe2FfJdvgWWwEg" name="borrar" visibility="public" method="_wFXVkKIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFWugKIfEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFXVkaIfEe2FfJdvgWWwEg" name="getClientes" visibility="public" method="_wFYjsKIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFX8oKIfEe2FfJdvgWWwEg" type="_nFFA0KIfEe2FfJdvgWWwEg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wFX8oaIfEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wFX8oqIfEe2FfJdvgWWwEg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFYjsaIfEe2FfJdvgWWwEg" name="getTurismos" visibility="public" method="_wFZKwqIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFYjsqIfEe2FfJdvgWWwEg" type="_oqdDMKIfEe2FfJdvgWWwEg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wFZKwKIfEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wFZKwaIfEe2FfJdvgWWwEg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFZx0KIfEe2FfJdvgWWwEg" name="getAlquileres" visibility="public" method="_wFaY4KIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFZx0aIfEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wFZx0qIfEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wFZx06IfEe2FfJdvgWWwEg" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFa_8KIfEe2FfJdvgWWwEg" name="getAlquileres" visibility="public" method="_wFbnAaIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFa_8aIfEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wFa_8qIfEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wFa_86IfEe2FfJdvgWWwEg" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFbnAKIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+          <ownedOperation xmi:type="uml:Operation" xmi:id="_wFcOEKIfEe2FfJdvgWWwEg" name="getAlquileres" visibility="public" method="_wFdcMKIfEe2FfJdvgWWwEg">
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFcOEaIfEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wFc1IKIfEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wFc1IaIfEe2FfJdvgWWwEg" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:type="uml:Parameter" xmi:id="_wFc1IqIfEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_fHWjAKIkEe2FfJdvgWWwEg" name="negocio">
+          <packagedElement xmi:type="uml:Class" xmi:id="_tr3uoKIfEe2FfJdvgWWwEg" name="Turismos" visibility="public">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_tr48wKIfEe2FfJdvgWWwEg" name="coleccionTurismos" visibility="private" type="_oqdDMKIfEe2FfJdvgWWwEg" isUnique="false" aggregation="composite" association="_2R6h8KIgEe2FfJdvgWWwEg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tr48waIfEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tr48wqIfEe2FfJdvgWWwEg" value="*"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tr8nIKIfEe2FfJdvgWWwEg" name="Turismos" specification="_tr48w6IfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    coleccionTurismos = new ArrayList&lt;>();
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tr91QqIfEe2FfJdvgWWwEg" name="get" specification="_tr9OMKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return new ArrayList&lt;>(coleccionTurismos);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tr-cUaIfEe2FfJdvgWWwEg" name="getCantidad" specification="_tr91Q6IfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return coleccionTurismos.size();
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tr_qcKIfEe2FfJdvgWWwEg" name="insertar" specification="_tr_DYKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (turismo == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede insertar un turismo nulo.&quot;);
+    }
+    if (!coleccionTurismos.contains(turismo)) {
+        coleccionTurismos.add(turismo);
+    } else {
+        throw new OperationNotSupportedException(&quot;ERROR: Ya existe un turismo con esa matrícula.&quot;);
+    }
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tsA4kKIfEe2FfJdvgWWwEg" name="buscar" specification="_tr_qcaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (turismo == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede buscar un turismo nulo.&quot;);
+    }
+    int indice = coleccionTurismos.indexOf(turismo);
+    return (indice == -1) ? null : coleccionTurismos.get(indice);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tsBfoaIfEe2FfJdvgWWwEg" name="borrar" specification="_tsA4kaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (turismo == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede borrar un turismo nulo.&quot;);
+    }
+    if (!coleccionTurismos.contains(turismo)) {
+        throw new OperationNotSupportedException(&quot;ERROR: No existe ningún turismo con esa matrícula.&quot;);
+    } else {
+        coleccionTurismos.remove(turismo);
+    }
+</body>
+            </ownedBehavior>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_tr48w6IfEe2FfJdvgWWwEg" name="Turismos" visibility="public" method="_tr8nIKIfEe2FfJdvgWWwEg"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_tr9OMKIfEe2FfJdvgWWwEg" name="get" visibility="public" method="_tr91QqIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_tr9OMaIfEe2FfJdvgWWwEg" type="_oqdDMKIfEe2FfJdvgWWwEg" direction="return">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tr91QKIfEe2FfJdvgWWwEg"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tr91QaIfEe2FfJdvgWWwEg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_tr91Q6IfEe2FfJdvgWWwEg" name="getCantidad" visibility="public" method="_tr-cUaIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_tr-cUKIfEe2FfJdvgWWwEg" type="_nGBcAaIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_tr_DYKIfEe2FfJdvgWWwEg" name="insertar" visibility="public" method="_tr_qcKIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_tr_DYaIfEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_tr_qcaIfEe2FfJdvgWWwEg" name="buscar" visibility="public" method="_tsA4kKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_tsARgKIfEe2FfJdvgWWwEg" type="_oqdDMKIfEe2FfJdvgWWwEg" direction="return"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_tsARgaIfEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_tsA4kaIfEe2FfJdvgWWwEg" name="borrar" visibility="public" method="_tsBfoaIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_tsBfoKIfEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vGpqkKIfEe2FfJdvgWWwEg" name="Alquileres" visibility="public">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_vGt8AKIfEe2FfJdvgWWwEg" name="coleccionAlquileres" visibility="private" type="_psyC4KIfEe2FfJdvgWWwEg" isUnique="false" aggregation="composite" association="_1hl4QKIgEe2FfJdvgWWwEg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vGujEKIfEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vGujEaIfEe2FfJdvgWWwEg" value="*"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vGy0gaIfEe2FfJdvgWWwEg" name="Alquileres" specification="_vGvKIKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    coleccionAlquileres = new ArrayList&lt;>();
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vG0psKIfEe2FfJdvgWWwEg" name="get" specification="_vGzbkKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return new ArrayList&lt;>(coleccionAlquileres);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vG3tAKIfEe2FfJdvgWWwEg" name="get" specification="_vG1QwKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    List&lt;Alquiler> alquileresCliente = new ArrayList&lt;>();
+    for (Alquiler alquiler : coleccionAlquileres) {
+        if (alquiler.getCliente().equals(cliente)) {
+            alquileresCliente.add(alquiler);
+        }
+    }
+    return alquileresCliente;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vG5iMKIfEe2FfJdvgWWwEg" name="get" specification="_vG4UEKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    List&lt;Alquiler> alquileresTurismo = new ArrayList&lt;>();
+    for (Alquiler alquiler : coleccionAlquileres) {
+        if (alquiler.getTurismo().equals(turismo)) {
+            alquileresTurismo.add(alquiler);
+        }
+    }
+    return alquileresTurismo;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vG6JQaIfEe2FfJdvgWWwEg" name="getCantidad" specification="_vG5iMaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return coleccionAlquileres.size();
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vG7XYKIfEe2FfJdvgWWwEg" name="insertar" specification="_vG6JQqIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (alquiler == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede insertar un alquiler nulo.&quot;);
+    }
+    if (!coleccionAlquileres.contains(alquiler)) {
+        coleccionAlquileres.add(alquiler);
+    } else {
+        throw new OperationNotSupportedException(&quot;ERROR: Ya existe un alquiler igual.&quot;);
+    }
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vG8lgKIfEe2FfJdvgWWwEg" name="buscar" specification="_vG7XYaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (alquiler == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede buscar un alquiler nulo.&quot;);
+    }
+    int indice = coleccionAlquileres.indexOf(alquiler);
+    return (indice == -1) ? null : coleccionAlquileres.get(indice);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vG9MkaIfEe2FfJdvgWWwEg" name="borrar" specification="_vG8lgaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (alquiler == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede borrar un alquiler nulo.&quot;);
+    }
+    if (!coleccionAlquileres.contains(alquiler)) {
+        throw new OperationNotSupportedException(&quot;ERROR: No existe ningún alquiler igual.&quot;);
+    } else {
+        coleccionAlquileres.remove(alquiler);
+    }
+</body>
+            </ownedBehavior>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vGvKIKIfEe2FfJdvgWWwEg" name="Alquileres" visibility="public" method="_vGy0gaIfEe2FfJdvgWWwEg"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vGzbkKIfEe2FfJdvgWWwEg" name="get" visibility="public" method="_vG0psKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vG0CoKIfEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vG0CoaIfEe2FfJdvgWWwEg"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vG0CoqIfEe2FfJdvgWWwEg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vG1QwKIfEe2FfJdvgWWwEg" name="get" visibility="public" method="_vG3tAKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vG2e4KIfEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vG2e4aIfEe2FfJdvgWWwEg"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vG2e4qIfEe2FfJdvgWWwEg" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vG3F8KIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vG4UEKIfEe2FfJdvgWWwEg" name="get" visibility="public" method="_vG5iMKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vG4UEaIfEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vG47IKIfEe2FfJdvgWWwEg"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vG47IaIfEe2FfJdvgWWwEg" value="*"/>
+              </ownedParameter>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vG47IqIfEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vG5iMaIfEe2FfJdvgWWwEg" name="getCantidad" visibility="public" method="_vG6JQaIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vG6JQKIfEe2FfJdvgWWwEg" type="_nGBcAaIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vG6JQqIfEe2FfJdvgWWwEg" name="insertar" visibility="public" method="_vG7XYKIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vG6wUKIfEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_V0Q2oKObEe2ZB8FyM7Ufdg" name="comprobarAlquiler" visibility="private" method="_16_X8KOaEe2ZB8FyM7Ufdg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_V0Q2oaObEe2ZB8FyM7Ufdg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg" effect="read"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_V0Q2oqObEe2ZB8FyM7Ufdg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg" effect="read"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_V0Q2o6ObEe2ZB8FyM7Ufdg" name="fechaAlquiler" type="_ptEWwKIfEe2FfJdvgWWwEg" effect="read"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vG7XYaIfEe2FfJdvgWWwEg" name="buscar" visibility="public" method="_vG8lgKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vG7-cKIfEe2FfJdvgWWwEg" type="_psyC4KIfEe2FfJdvgWWwEg" direction="return"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vG7-caIfEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_vG8lgaIfEe2FfJdvgWWwEg" name="borrar" visibility="public" method="_vG9MkaIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_vG9MkKIfEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_4nq8cKOhEe2ZB8FyM7Ufdg" name="devolver" method="_17Ih4KOaEe2ZB8FyM7Ufdg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_4nq8caOhEe2ZB8FyM7Ufdg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg" effect="read"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_4nq8cqOhEe2ZB8FyM7Ufdg" name="fechaDevolucion" type="_ptEWwKIfEe2FfJdvgWWwEg" effect="read"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_r69KoKIfEe2FfJdvgWWwEg" name="Clientes" visibility="public">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_r69xsKIfEe2FfJdvgWWwEg" name="coleccionClientes" visibility="private" type="_nFFA0KIfEe2FfJdvgWWwEg" isUnique="false" aggregation="composite" association="_0tEEAKIgEe2FfJdvgWWwEg">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r69xsaIfEe2FfJdvgWWwEg"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r6-YwKIfEe2FfJdvgWWwEg" value="*"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r7A1AKIfEe2FfJdvgWWwEg" name="Clientes" specification="_r6-YwaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    coleccionClientes = new ArrayList&lt;>();
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r7CDI6IfEe2FfJdvgWWwEg" name="get" specification="_r7BcEKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return new ArrayList&lt;>(coleccionClientes);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r7CqMqIfEe2FfJdvgWWwEg" name="getCantidad" specification="_r7CqMKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return coleccionClientes.size();
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r7D4UKIfEe2FfJdvgWWwEg" name="insertar" specification="_r7DRQKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (cliente == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede insertar un cliente nulo.&quot;);
+    }
+    if (!coleccionClientes.contains(cliente)) {
+        coleccionClientes.add(cliente);
+    } else {
+        throw new OperationNotSupportedException(&quot;ERROR: Ya existe un cliente con ese DNI.&quot;);
+    }
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r7FtgKIfEe2FfJdvgWWwEg" name="buscar" specification="_r7EfYKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (cliente == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede buscar un cliente nulo.&quot;);
+    }
+    int indice = coleccionClientes.indexOf(cliente);
+    return (indice == -1) ? null : coleccionClientes.get(indice);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r7HisKIfEe2FfJdvgWWwEg" name="borrar" specification="_r7GUkKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (cliente == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede borrar un cliente nulo.&quot;);
+    }
+    if (!coleccionClientes.contains(cliente)) {
+        throw new OperationNotSupportedException(&quot;ERROR: No existe ningún cliente con ese DNI.&quot;);
+    } else {
+        coleccionClientes.remove(cliente);
+    }
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_r7J-8KIfEe2FfJdvgWWwEg" name="modificar" specification="_r7IJwKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (cliente == null) {
+        throw new NullPointerException(&quot;ERROR: No se puede modificar un cliente nulo.&quot;);
+    }
+    Cliente clienteEncontrado = buscar(cliente);
+    if (clienteEncontrado == null) {
+        throw new OperationNotSupportedException(&quot;ERROR: No existe ningún cliente con ese DNI.&quot;);
+    } else {
+        clienteEncontrado.setTelefono(telefono);
+    }
+</body>
+            </ownedBehavior>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_r6-YwaIfEe2FfJdvgWWwEg" name="Clientes" visibility="public" method="_r7A1AKIfEe2FfJdvgWWwEg"/>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_r7BcEKIfEe2FfJdvgWWwEg" name="get" visibility="public" method="_r7CDI6IfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_r7CDIKIfEe2FfJdvgWWwEg" type="_nFFA0KIfEe2FfJdvgWWwEg" direction="return">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r7CDIaIfEe2FfJdvgWWwEg"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r7CDIqIfEe2FfJdvgWWwEg" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_r7CqMKIfEe2FfJdvgWWwEg" name="getCantidad" visibility="public" method="_r7CqMqIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_r7CqMaIfEe2FfJdvgWWwEg" type="_nGBcAaIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_r7DRQKIfEe2FfJdvgWWwEg" name="insertar" visibility="public" method="_r7D4UKIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_r7DRQaIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_r7EfYKIfEe2FfJdvgWWwEg" name="buscar" visibility="public" method="_r7FtgKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_r7EfYaIfEe2FfJdvgWWwEg" type="_nFFA0KIfEe2FfJdvgWWwEg" direction="return"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_r7FGcKIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_r7GUkKIfEe2FfJdvgWWwEg" name="borrar" visibility="public" method="_r7HisKIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_r7G7oKIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_r7IJwKIfEe2FfJdvgWWwEg" name="modificar" visibility="public" method="_r7J-8KIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_r7Iw0KIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_DTH-YKI1Ee2FfJdvgWWwEg" name="nombre">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_r7JX4KIfEe2FfJdvgWWwEg" name="telefono" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_6ExBIKIjEe2FfJdvgWWwEg" name="dominio">
+          <packagedElement xmi:type="uml:Class" xmi:id="_nFFA0KIfEe2FfJdvgWWwEg" name="Cliente" visibility="public">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_nFG2AKIfEe2FfJdvgWWwEg" name="ER_NOMBRE" visibility="private" isLeaf="true" isStatic="true" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false">
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_nFHdEKIfEe2FfJdvgWWwEg" name="defaultValue">
+                <language>JAVA</language>
+                <body>&quot;[A-ZÁÉÍÓÚÑ][a-záéíóúüñ]+(?: [A-ZÁÉÍÓÚ][a-záéíóúüñ]+)*+&quot;</body>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_nFIrMKIfEe2FfJdvgWWwEg" name="ER_DNI" visibility="private" isLeaf="true" isStatic="true" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false">
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_nFJSQKIfEe2FfJdvgWWwEg" name="defaultValue">
+                <language>JAVA</language>
+                <body>&quot;\\d{8}[A-Z]&quot;</body>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_nFJ5UKIfEe2FfJdvgWWwEg" name="ER_TELEFONO" visibility="private" isLeaf="true" isStatic="true" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false">
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_nFKgYKIfEe2FfJdvgWWwEg" name="defaultValue">
+                <language>JAVA</language>
+                <body>&quot;\\d{9}&quot;</body>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_nFLugKIfEe2FfJdvgWWwEg" name="nombre" visibility="private" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_nFMVkKIfEe2FfJdvgWWwEg" name="dni" visibility="private" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_nFNjsKIfEe2FfJdvgWWwEg" name="telefono" visibility="private" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nFaYAKIfEe2FfJdvgWWwEg" name="Cliente" specification="_nFOx0KIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    setNombre(nombre);
+    setDni(dni);
+    setTelefono(telefono);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nFi64KIfEe2FfJdvgWWwEg" name="Cliente" specification="_nFa_EKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (cliente == null) {
+        throw new NullPointerException(&quot;ERROR: No es posible copiar un cliente nulo.&quot;);
+    }
+    setNombre(cliente.getNombre());
+    setDni(cliente.getDni());
+    setTelefono(cliente.getTelefono());
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nFl-MKIfEe2FfJdvgWWwEg" name="getNombre" specification="_nFjh8KIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return nombre;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nFnzYKIfEe2FfJdvgWWwEg" name="setNombre" specification="_nFmlQKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (nombre == null) {
+        throw new NullPointerException(&quot;ERROR: El nombre no puede ser nulo.&quot;);
+    }
+    if (!nombre.matches(ER_NOMBRE)) {
+        throw new IllegalArgumentException(&quot;ERROR: El nombre no tiene un formato válido.&quot;);
+    }
+    this.nombre = nombre;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nFoacaIfEe2FfJdvgWWwEg" name="getDni" specification="_nFnzYaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return dni;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nFqPoKIfEe2FfJdvgWWwEg" name="setDni" specification="_nFpBgKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (dni == null) {
+        throw new NullPointerException(&quot;ERROR: El DNI no puede ser nulo.&quot;);
+    }
+    if (!dni.matches(ER_DNI)) {
+        throw new IllegalArgumentException(&quot;ERROR: El DNI no tiene un formato válido.&quot;);
+    }
+    if (!comprobarLetraDni(dni)) {
+        throw new IllegalArgumentException(&quot;ERROR: La letra del DNI no es correcta.&quot;);
+    }
+    this.dni = dni;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nF78cKIfEe2FfJdvgWWwEg" name="comprobarLetraDni" specification="_nFq2sKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    String letrasDni = &quot;TRWAGMYFPDXBNJZSQVHLCKE&quot;;
+    int numero = Integer.parseInt(dni.substring(0, 8));
+    char letra = dni.charAt(8);
+    return letra == letrasDni.charAt(numero % 23);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nF9KkKIfEe2FfJdvgWWwEg" name="getTelefono" specification="_nF8jgKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return telefono;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nF-_wKIfEe2FfJdvgWWwEg" name="setTelefono" specification="_nF9xoKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (telefono == null) {
+        throw new NullPointerException(&quot;ERROR: El teléfono no puede ser nulo.&quot;);
+    }
+    if (!telefono.matches(ER_TELEFONO)) {
+        throw new IllegalArgumentException(&quot;ERROR: El teléfono no tiene un formato válido.&quot;);
+    }
+    this.telefono = telefono;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nGA08KIfEe2FfJdvgWWwEg" name="getClienteConDni" specification="_nF_m0KIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return new Cliente(&quot;Bob Esponja&quot;, dni, &quot;111222333&quot;);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nGCDEaIfEe2FfJdvgWWwEg" name="hashCode" specification="_nGBcAKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return Objects.hash(dni);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nGL0EKIfEe2FfJdvgWWwEg" name="equals" specification="_nGIwwKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (this == obj) {
+        return true;
+    }
+    if (!(obj instanceof Cliente)) {
+        return false;
+    }
+    Cliente other = (Cliente) obj;
+    return Objects.equals(dni, other.dni);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nGQFgKIfEe2FfJdvgWWwEg" name="toString" specification="_nGNpQKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return String.format(&quot;%s - %s (%s)&quot;, nombre, dni, telefono);
+</body>
+            </ownedBehavior>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nFOx0KIfEe2FfJdvgWWwEg" name="Cliente" visibility="public" method="_nFaYAKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nFX7wKIfEe2FfJdvgWWwEg" name="nombre" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nFZJ4KIfEe2FfJdvgWWwEg" name="dni" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nFZw8KIfEe2FfJdvgWWwEg" name="telefono" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nFa_EKIfEe2FfJdvgWWwEg" name="Cliente" visibility="public" method="_nFi64KIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nFiT0KIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nFjh8KIfEe2FfJdvgWWwEg" name="getNombre" visibility="public" method="_nFl-MKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nFlXIKIfEe2FfJdvgWWwEg" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nFmlQKIfEe2FfJdvgWWwEg" name="setNombre" visibility="public" method="_nFnzYKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nFnMUKIfEe2FfJdvgWWwEg" name="nombre" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nFnzYaIfEe2FfJdvgWWwEg" name="getDni" visibility="public" method="_nFoacaIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nFoacKIfEe2FfJdvgWWwEg" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nFpBgKIfEe2FfJdvgWWwEg" name="setDni" visibility="private" method="_nFqPoKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nFpokKIfEe2FfJdvgWWwEg" name="dni" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nFq2sKIfEe2FfJdvgWWwEg" name="comprobarLetraDni" visibility="private" method="_nF78cKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nF6uUaIfEe2FfJdvgWWwEg" type="_nF6uUKIfEe2FfJdvgWWwEg" direction="return"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nF7VYKIfEe2FfJdvgWWwEg" name="dni" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nF8jgKIfEe2FfJdvgWWwEg" name="getTelefono" visibility="public" method="_nF9KkKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nF8jgaIfEe2FfJdvgWWwEg" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nF9xoKIfEe2FfJdvgWWwEg" name="setTelefono" visibility="public" method="_nF-_wKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nF-YsKIfEe2FfJdvgWWwEg" name="telefono" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nF_m0KIfEe2FfJdvgWWwEg" name="getClienteConDni" visibility="public" isStatic="true" method="_nGA08KIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nF_m0aIfEe2FfJdvgWWwEg" type="_nFFA0KIfEe2FfJdvgWWwEg" direction="return"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nGAN4KIfEe2FfJdvgWWwEg" name="dni" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nGBcAKIfEe2FfJdvgWWwEg" name="hashCode" visibility="public" method="_nGCDEaIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nGCDEKIfEe2FfJdvgWWwEg" type="_nGBcAaIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nGIwwKIfEe2FfJdvgWWwEg" name="equals" visibility="public" method="_nGL0EKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nGJX0KIfEe2FfJdvgWWwEg" type="_nF6uUKIfEe2FfJdvgWWwEg" direction="return"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nGKl8KIfEe2FfJdvgWWwEg" name="obj" type="_nGCqIKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_nGNpQKIfEe2FfJdvgWWwEg" name="toString" visibility="public" method="_nGQFgKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_nGO3YKIfEe2FfJdvgWWwEg" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_psyC4KIfEe2FfJdvgWWwEg" name="Alquiler" visibility="public">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_ps5XoKIfEe2FfJdvgWWwEg" name="FORMATO_FECHA" visibility="package" isLeaf="true" isStatic="true" type="_pszRAaIfEe2FfJdvgWWwEg" isUnique="false">
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_ps5-sKIfEe2FfJdvgWWwEg" name="defaultValue">
+                <language>JAVA</language>
+                <body>DateTimeFormatter.ofPattern(&quot;dd/MM/yyyy&quot;)</body>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_ps6lwKIfEe2FfJdvgWWwEg" name="PRECIO_DIA" visibility="private" isLeaf="true" isStatic="true" type="_nGBcAaIfEe2FfJdvgWWwEg" isUnique="false">
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_ps6lwaIfEe2FfJdvgWWwEg" name="defaultValue">
+                <language>JAVA</language>
+                <body>20</body>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_ps-3MaIfEe2FfJdvgWWwEg" name="cliente" visibility="private" type="_nFFA0KIfEe2FfJdvgWWwEg" isUnique="false" aggregation="composite" association="_g4_ckKIgEe2FfJdvgWWwEg"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_ptDvsKIfEe2FfJdvgWWwEg" name="turismo" visibility="private" type="_oqdDMKIfEe2FfJdvgWWwEg" isUnique="false" aggregation="composite" association="_jOX_kKIgEe2FfJdvgWWwEg"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_ptHaEaIfEe2FfJdvgWWwEg" name="fechaAlquiler" visibility="private" type="_ptEWwKIfEe2FfJdvgWWwEg" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_ptIBIKIfEe2FfJdvgWWwEg" name="fechaDevolucion" visibility="private" type="_ptEWwKIfEe2FfJdvgWWwEg" isUnique="false"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptM5oKIfEe2FfJdvgWWwEg" name="Alquiler" specification="_ptIoMKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    setCliente(cliente);
+    setTurismo(turismo);
+    setFechaAlquiler(fechaAlquiler);
+    fechaDevolucion = null;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptP88aIfEe2FfJdvgWWwEg" name="Alquiler" specification="_ptM5oaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (alquiler == null) {
+        throw new NullPointerException(&quot;ERROR: No es posible copiar un alquiler nulo.&quot;);
+    }
+    cliente = new Cliente(alquiler.getCliente());
+    turismo = new Turismo(alquiler.getTurismo());
+    fechaAlquiler = alquiler.getFechaAlquiler();
+    fechaDevolucion = alquiler.getFechaDevolucion();
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptRLEKIfEe2FfJdvgWWwEg" name="getCliente" specification="_ptQkAKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return cliente;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptSZMKIfEe2FfJdvgWWwEg" name="setCliente" specification="_ptRyIKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (cliente == null) {
+        throw new NullPointerException(&quot;ERROR: El cliente no puede ser nulo.&quot;);
+    }
+    this.cliente = cliente;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptTAQaIfEe2FfJdvgWWwEg" name="getTurismo" specification="_ptSZMaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return turismo;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptUOYKIfEe2FfJdvgWWwEg" name="setTurismo" specification="_ptTnUKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (turismo == null) {
+        throw new NullPointerException(&quot;ERROR: El turismo no puede ser nulo.&quot;);
+    }
+    if (!turismo.isDisponible()) {
+        throw new IllegalArgumentException(&quot;ERROR: El turismo del alquiler no está disponible.&quot;);
+    }
+    turismo.setDisponible(false);
+    this.turismo = turismo;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptVcgKIfEe2FfJdvgWWwEg" name="getFechaAlquiler" specification="_ptU1cKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return fechaAlquiler;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptWDkaIfEe2FfJdvgWWwEg" name="setFechaAlquiler" specification="_ptVcgaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (fechaAlquiler == null) {
+        throw new NullPointerException(&quot;ERROR: La fecha de alquiler no puede ser nula.&quot;);
+    }
+    if (fechaAlquiler.isAfter(LocalDate.now())) {
+        throw new IllegalArgumentException(&quot;ERROR: La fecha de alquiler no puede ser futura.&quot;);
+    }
+    this.fechaAlquiler = fechaAlquiler;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptXRsKIfEe2FfJdvgWWwEg" name="getFechaDevolucion" specification="_ptWqoKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return fechaDevolucion;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptYf0KIfEe2FfJdvgWWwEg" name="setFechaDevolucion" specification="_ptXRsaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (fechaDevolucion == null) {
+        throw new NullPointerException(&quot;ERROR: La fecha de devolución no puede ser nula.&quot;);
+    }
+    if (fechaDevolucion.isBefore(fechaAlquiler) || fechaDevolucion.isEqual(fechaAlquiler)) {
+        throw new IllegalArgumentException(&quot;ERROR: La fecha de devolución debe ser posterior a la fecha de alquiler.&quot;);
+    }
+    if (fechaDevolucion.isAfter(LocalDate.now())) {
+        throw new IllegalArgumentException(&quot;ERROR: La fecha de devolución no puede ser futura.&quot;);
+    }
+    this.fechaDevolucion = fechaDevolucion;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptcKMaIfEe2FfJdvgWWwEg" name="devolver" specification="_ptYf0aIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (this.fechaDevolucion != null) {
+        throw new OperationNotSupportedException(&quot;ERROR: La devolución ya estaba registrada.&quot;);
+    }
+    setFechaDevolucion(fechaDevolucion);
+    turismo.setDisponible(true);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptdYUKIfEe2FfJdvgWWwEg" name="getPrecio" specification="_ptcxQKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    int precio = 0;
+    if (fechaDevolucion != null) {
+        int dias = (int) ChronoUnit.DAYS.between(fechaAlquiler, fechaDevolucion);
+        int factorCilindrada = turismo.getCilindrada() / 10;
+        precio = (PRECIO_DIA + factorCilindrada) * dias;
+    }
+    return precio;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptd_YaIfEe2FfJdvgWWwEg" name="hashCode" specification="_ptdYUaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return Objects.hash(cliente, fechaAlquiler, turismo);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptfNgaIfEe2FfJdvgWWwEg" name="equals" specification="_ptemcKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (this == obj)
+        return true;
+    if (obj == null)
+        return false;
+    if (getClass() != obj.getClass())
+        return false;
+    Alquiler other = (Alquiler) obj;
+    return Objects.equals(cliente, other.cliente) &amp;&amp; Objects.equals(fechaAlquiler, other.fechaAlquiler) &amp;&amp; Objects.equals(turismo, other.turismo);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ptgboKIfEe2FfJdvgWWwEg" name="toString" specification="_ptf0kKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    String cadenaDevolucion = (fechaDevolucion == null) ? &quot;Aún no devuelto&quot; : fechaDevolucion.format(FORMATO_FECHA);
+    return String.format(&quot;%s &lt;---> %s, %s - %s (%d€)&quot;, cliente, turismo, fechaAlquiler.format(FORMATO_FECHA), cadenaDevolucion, getPrecio());
+</body>
+            </ownedBehavior>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptIoMKIfEe2FfJdvgWWwEg" name="Alquiler" visibility="public" method="_ptM5oKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptLEcaIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptLrgKIfEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptMSkKIfEe2FfJdvgWWwEg" name="fechaAlquiler" type="_ptEWwKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptM5oaIfEe2FfJdvgWWwEg" name="Alquiler" visibility="public" method="_ptP88aIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptP88KIfEe2FfJdvgWWwEg" name="alquiler" type="_psyC4KIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptQkAKIfEe2FfJdvgWWwEg" name="getCliente" visibility="public" method="_ptRLEKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptQkAaIfEe2FfJdvgWWwEg" type="_nFFA0KIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptRyIKIfEe2FfJdvgWWwEg" name="setCliente" visibility="private" method="_ptSZMKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptRyIaIfEe2FfJdvgWWwEg" name="cliente" type="_nFFA0KIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptSZMaIfEe2FfJdvgWWwEg" name="getTurismo" visibility="public" method="_ptTAQaIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptTAQKIfEe2FfJdvgWWwEg" type="_oqdDMKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptTnUKIfEe2FfJdvgWWwEg" name="setTurismo" visibility="private" method="_ptUOYKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptTnUaIfEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptU1cKIfEe2FfJdvgWWwEg" name="getFechaAlquiler" visibility="public" method="_ptVcgKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptU1caIfEe2FfJdvgWWwEg" type="_ptEWwKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptVcgaIfEe2FfJdvgWWwEg" name="setFechaAlquiler" visibility="private" method="_ptWDkaIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptWDkKIfEe2FfJdvgWWwEg" name="fechaAlquiler" type="_ptEWwKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptWqoKIfEe2FfJdvgWWwEg" name="getFechaDevolucion" visibility="public" method="_ptXRsKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptWqoaIfEe2FfJdvgWWwEg" type="_ptEWwKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptXRsaIfEe2FfJdvgWWwEg" name="setFechaDevolucion" visibility="private" method="_ptYf0KIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptX4wKIfEe2FfJdvgWWwEg" name="fechaDevolucion" type="_ptEWwKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptYf0aIfEe2FfJdvgWWwEg" name="devolver" visibility="public" method="_ptcKMaIfEe2FfJdvgWWwEg" raisedException="_ptZt8qIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptZG4KIfEe2FfJdvgWWwEg" name="fechaDevolucion" type="_ptEWwKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptcxQKIfEe2FfJdvgWWwEg" name="getPrecio" visibility="public" method="_ptdYUKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptcxQaIfEe2FfJdvgWWwEg" type="_nGBcAaIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptdYUaIfEe2FfJdvgWWwEg" name="hashCode" visibility="public" method="_ptd_YaIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptd_YKIfEe2FfJdvgWWwEg" type="_nGBcAaIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptemcKIfEe2FfJdvgWWwEg" name="equals" visibility="public" method="_ptfNgaIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptemcaIfEe2FfJdvgWWwEg" type="_nF6uUKIfEe2FfJdvgWWwEg" direction="return"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptfNgKIfEe2FfJdvgWWwEg" name="obj" type="_nGCqIKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_ptf0kKIfEe2FfJdvgWWwEg" name="toString" visibility="public" method="_ptgboKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_ptf0kaIfEe2FfJdvgWWwEg" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oqdDMKIfEe2FfJdvgWWwEg" name="Turismo" visibility="public">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_oqeRUKIfEe2FfJdvgWWwEg" name="ER_MARCA" visibility="private" isLeaf="true" isStatic="true" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false">
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_oqeRUaIfEe2FfJdvgWWwEg" name="defaultValue">
+                <language>JAVA</language>
+                <body>&quot;[A-Z][a-z]+(?:[- ]?[A-Z][a-z]+)?|[A-Z]+&quot;</body>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_oqe4YKIfEe2FfJdvgWWwEg" name="ER_MATRICULA" visibility="private" isLeaf="true" isStatic="true" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false">
+              <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_oqe4YaIfEe2FfJdvgWWwEg" name="defaultValue">
+                <language>JAVA</language>
+                <body>&quot;\\d{4}[^\\W_AEIOUa-z]{3}&quot;</body>
+              </defaultValue>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_oqffcKIfEe2FfJdvgWWwEg" name="marca" visibility="private" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_oqffcaIfEe2FfJdvgWWwEg" name="modelo" visibility="private" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_oqgGgKIfEe2FfJdvgWWwEg" name="cilindrada" visibility="private" type="_nGBcAaIfEe2FfJdvgWWwEg" isUnique="false"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_oqgtkKIfEe2FfJdvgWWwEg" name="matricula" visibility="private" type="_hzYdsKIfEe2FfJdvgWWwEg" isUnique="false"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oqopYKIfEe2FfJdvgWWwEg" name="Turismo" specification="_oqhUoKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    setMarca(marca);
+    setModelo(modelo);
+    setCilindrada(cilindrada);
+    setMatricula(matricula);
+    setDisponible(true);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oqs60KIfEe2FfJdvgWWwEg" name="Turismo" specification="_oqopYaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (turismo == null) {
+        throw new NullPointerException(&quot;ERROR: No es posible copiar un turismo nulo.&quot;);
+    }
+    marca = turismo.getMarca();
+    modelo = turismo.getModelo();
+    cilindrada = turismo.getCilindrada();
+    matricula = turismo.getMatricula();
+    disponible = turismo.isDisponible();
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oqth4aIfEe2FfJdvgWWwEg" name="getMarca" specification="_oqs60aIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return marca;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oquwAKIfEe2FfJdvgWWwEg" name="setMarca" specification="_oquI8KIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (marca == null) {
+        throw new NullPointerException(&quot;ERROR: La marca no puede ser nula.&quot;);
+    }
+    if (!marca.matches(ER_MARCA)) {
+        throw new IllegalArgumentException(&quot;ERROR: La marca no tiene un formato válido.&quot;);
+    }
+    this.marca = marca;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oqvXEqIfEe2FfJdvgWWwEg" name="getModelo" specification="_oqvXEKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return modelo;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oqxMQKIfEe2FfJdvgWWwEg" name="setModelo" specification="_oqv-IKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (modelo == null) {
+        throw new NullPointerException(&quot;ERROR: El modelo no puede ser nulo.&quot;);
+    }
+    if (modelo.isBlank()) {
+        throw new IllegalArgumentException(&quot;ERROR: El modelo no puede estar en blanco.&quot;);
+    }
+    this.modelo = modelo;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oqxzUaIfEe2FfJdvgWWwEg" name="getCilindrada" specification="_oqxMQaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return cilindrada;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oqyaYqIfEe2FfJdvgWWwEg" name="setCilindrada" specification="_oqyaYKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (cilindrada &lt;= 0 || cilindrada > 5000) {
+        throw new IllegalArgumentException(&quot;ERROR: La cilindrada no es correcta.&quot;);
+    }
+    this.cilindrada = cilindrada;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oqzogKIfEe2FfJdvgWWwEg" name="getMatricula" specification="_oqzBcKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return matricula;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oq02oKIfEe2FfJdvgWWwEg" name="setMatricula" specification="_oq0PkKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (matricula == null) {
+        throw new NullPointerException(&quot;ERROR: La matrícula no puede ser nula.&quot;);
+    }
+    if (!matricula.matches(ER_MATRICULA)) {
+        throw new IllegalArgumentException(&quot;ERROR: La matrícula no tiene un formato válido.&quot;);
+    }
+    this.matricula = matricula;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oq1dsaIfEe2FfJdvgWWwEg" name="isDisponible">
+              <language>JAVA</language>
+              <body>
+    return disponible;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oq2r0aIfEe2FfJdvgWWwEg" name="setDisponible">
+              <language>JAVA</language>
+              <body>
+    this.disponible = disponible;
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oq4hAaIfEe2FfJdvgWWwEg" name="getTurismoConMatricula" specification="_oq3S4KIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return new Turismo(&quot;Seat&quot;, &quot;León&quot;, 90, matricula);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oq5vIKIfEe2FfJdvgWWwEg" name="hashCode" specification="_oq5IEKIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return Objects.hash(matricula);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oq69QKIfEe2FfJdvgWWwEg" name="equals" specification="_oq5vIaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    if (this == obj)
+        return true;
+    if (obj == null)
+        return false;
+    if (getClass() != obj.getClass())
+        return false;
+    Turismo other = (Turismo) obj;
+    return Objects.equals(matricula, other.matricula);
+</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oq7kUaIfEe2FfJdvgWWwEg" name="toString" specification="_oq69QaIfEe2FfJdvgWWwEg">
+              <language>JAVA</language>
+              <body>
+    return String.format(&quot;%s %s (%dCV) - %s - %sdisponible&quot;, marca, modelo, cilindrada, matricula, disponible ? &quot;&quot; : &quot;no &quot;);
+</body>
+            </ownedBehavior>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oqhUoKIfEe2FfJdvgWWwEg" name="Turismo" visibility="public" method="_oqopYKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqm0MKIfEe2FfJdvgWWwEg" name="marca" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqnbQKIfEe2FfJdvgWWwEg" name="modelo" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqoCUKIfEe2FfJdvgWWwEg" name="cilindrada" type="_nGBcAaIfEe2FfJdvgWWwEg"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqoCUaIfEe2FfJdvgWWwEg" name="matricula" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oqopYaIfEe2FfJdvgWWwEg" name="Turismo" visibility="public" method="_oqs60KIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqsTwKIfEe2FfJdvgWWwEg" name="turismo" type="_oqdDMKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oqs60aIfEe2FfJdvgWWwEg" name="getMarca" visibility="public" method="_oqth4aIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqth4KIfEe2FfJdvgWWwEg" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oquI8KIfEe2FfJdvgWWwEg" name="setMarca" visibility="private" method="_oquwAKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oquI8aIfEe2FfJdvgWWwEg" name="marca" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oqvXEKIfEe2FfJdvgWWwEg" name="getModelo" visibility="public" method="_oqvXEqIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqvXEaIfEe2FfJdvgWWwEg" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oqv-IKIfEe2FfJdvgWWwEg" name="setModelo" visibility="private" method="_oqxMQKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqwlMKIfEe2FfJdvgWWwEg" name="modelo" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oqxMQaIfEe2FfJdvgWWwEg" name="getCilindrada" visibility="public" method="_oqxzUaIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqxzUKIfEe2FfJdvgWWwEg" type="_nGBcAaIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oqyaYKIfEe2FfJdvgWWwEg" name="setCilindrada" visibility="private" method="_oqyaYqIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqyaYaIfEe2FfJdvgWWwEg" name="cilindrada" type="_nGBcAaIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oqzBcKIfEe2FfJdvgWWwEg" name="getMatricula" visibility="public" method="_oqzogKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oqzBcaIfEe2FfJdvgWWwEg" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oq0PkKIfEe2FfJdvgWWwEg" name="setMatricula" visibility="private" method="_oq02oKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oq0PkaIfEe2FfJdvgWWwEg" name="matricula" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oq3S4KIfEe2FfJdvgWWwEg" name="getTurismoConMatricula" visibility="public" isStatic="true" method="_oq4hAaIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oq358KIfEe2FfJdvgWWwEg" type="_oqdDMKIfEe2FfJdvgWWwEg" direction="return"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oq4hAKIfEe2FfJdvgWWwEg" name="matricula" type="_hzYdsKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oq5IEKIfEe2FfJdvgWWwEg" name="hashCode" visibility="public" method="_oq5vIKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oq5IEaIfEe2FfJdvgWWwEg" type="_nGBcAaIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oq5vIaIfEe2FfJdvgWWwEg" name="equals" visibility="public" method="_oq69QKIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oq6WMKIfEe2FfJdvgWWwEg" type="_nF6uUKIfEe2FfJdvgWWwEg" direction="return"/>
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oq6WMaIfEe2FfJdvgWWwEg" name="obj" type="_nGCqIKIfEe2FfJdvgWWwEg"/>
+            </ownedOperation>
+            <ownedOperation xmi:type="uml:Operation" xmi:id="_oq69QaIfEe2FfJdvgWWwEg" name="toString" visibility="public" method="_oq7kUaIfEe2FfJdvgWWwEg">
+              <ownedParameter xmi:type="uml:Parameter" xmi:id="_oq7kUKIfEe2FfJdvgWWwEg" type="_hzYdsKIfEe2FfJdvgWWwEg" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hzTlMKIfEe2FfJdvgWWwEg" name="MainApp" visibility="public">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2MhIKIfEe2FfJdvgWWwEg" name="main" specification="_h2DXMKIfEe2FfJdvgWWwEg">
+          <language>JAVA</language>
+          <body>
+    Modelo modelo = new Modelo();
+    Vista vista = new Vista();
+    Controlador controlador = new Controlador(modelo, vista);
+    controlador.comenzar();
+</body>
+        </ownedBehavior>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_h2DXMKIfEe2FfJdvgWWwEg" name="main" visibility="public" isStatic="true" method="_h2MhIKIfEe2FfJdvgWWwEg">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_h2FMYKIfEe2FfJdvgWWwEg" name="args" type="_hzYdsKIfEe2FfJdvgWWwEg">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_h2HBkKIfEe2FfJdvgWWwEg"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h2HooKIfEe2FfJdvgWWwEg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hxm8EKIfEe2FfJdvgWWwEg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hxp_YKIfEe2FfJdvgWWwEg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/PapyrusJava/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PapyrusJava_PROFILES/PapyrusJava.profile.uml#_j9REUByGEduN1bTiWJ0lyw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hyXKAKIfEe2FfJdvgWWwEg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hyYYIKIfEe2FfJdvgWWwEg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/Codegen/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Codegen_PROFILES/Codegen.profile.uml#_fPDsIBa-EearhdjjJ6cVzQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hyiJIKIfEe2FfJdvgWWwEg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hyjXQKIfEe2FfJdvgWWwEg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <PapyrusJava:External xmi:id="_h2A68KIfEe2FfJdvgWWwEg" name="java.lang.String" base_Classifier="_hzYdsKIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_nFWGkKIfEe2FfJdvgWWwEg" base_BehavioralFeature="_nFOx0KIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_nFhswKIfEe2FfJdvgWWwEg" base_BehavioralFeature="_nFa_EKIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_nGG7kKIfEe2FfJdvgWWwEg" name="java.lang.Object" base_Classifier="_nGCqIKIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_oqlmEKIfEe2FfJdvgWWwEg" base_BehavioralFeature="_oqhUoKIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_oqrssKIfEe2FfJdvgWWwEg" base_BehavioralFeature="_oqopYaIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_ps4JgKIfEe2FfJdvgWWwEg" name="java.time.format.DateTimeFormatter" base_Classifier="_pszRAaIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_ps-3MKIfEe2FfJdvgWWwEg" name="org.iesalandalus.programacion.alquilervehiculos.mvc.modelo.dominio.Cliente" base_Classifier="_nFFA0KIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_ptDIoKIfEe2FfJdvgWWwEg" name="org.iesalandalus.programacion.alquilervehiculos.mvc.modelo.dominio.Turismo" base_Classifier="_oqdDMKIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_ptHaEKIfEe2FfJdvgWWwEg" name="java.time.LocalDate" base_Classifier="_ptEWwKIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_ptLEcKIfEe2FfJdvgWWwEg" base_BehavioralFeature="_ptIoMKIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_ptPV4KIfEe2FfJdvgWWwEg" base_BehavioralFeature="_ptM5oaIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_ptcKMKIfEe2FfJdvgWWwEg" name="javax.naming.OperationNotSupportedException" base_Classifier="_ptZt8qIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_r7AN8KIfEe2FfJdvgWWwEg" base_BehavioralFeature="_r6-YwaIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_tr8AEKIfEe2FfJdvgWWwEg" base_BehavioralFeature="_tr48w6IfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_vGtU8KIfEe2FfJdvgWWwEg" name="org.iesalandalus.programacion.alquilervehiculos.mvc.modelo.dominio.Alquiler" base_Classifier="_psyC4KIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_vGy0gKIfEe2FfJdvgWWwEg" base_BehavioralFeature="_vGvKIKIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_wE-UAKIfEe2FfJdvgWWwEg" name="org.iesalandalus.programacion.alquilervehiculos.mvc.modelo.negocio.Clientes" base_Classifier="_r69KoKIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_wFB-YKIfEe2FfJdvgWWwEg" name="org.iesalandalus.programacion.alquilervehiculos.mvc.modelo.negocio.Turismos" base_Classifier="_tr3uoKIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_wFEaoKIfEe2FfJdvgWWwEg" name="org.iesalandalus.programacion.alquilervehiculos.mvc.modelo.negocio.Alquileres" base_Classifier="_vGpqkKIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_wFHd8KIfEe2FfJdvgWWwEg" base_BehavioralFeature="_wFFBsaIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_x5BrkKIfEe2FfJdvgWWwEg" name="org.iesalandalus.programacion.alquilervehiculos.mvc.modelo.Modelo" base_Classifier="_wE8e0KIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_x5GkEKIfEe2FfJdvgWWwEg" name="org.iesalandalus.programacion.alquilervehiculos.mvc.vista.Vista" base_Classifier="_x5EH0qIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_zNOeYKIfEe2FfJdvgWWwEg" name="Opcion" base_Classifier="_1vQWQKIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_1vg08KIfEe2FfJdvgWWwEg" base_BehavioralFeature="_1vdxoKIfEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_rOiCIKIiEe2FfJdvgWWwEg" name="org.iesalandalus.programacion.alquilervehiculos.mvc.vista.Vista" base_Classifier="_zNEGUKIfEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_rOkeYKIiEe2FfJdvgWWwEg" base_BehavioralFeature="_rOjQQKIiEe2FfJdvgWWwEg"/>
+  <PapyrusJava:External xmi:id="_hbDgcKIjEe2FfJdvgWWwEg" name="org.iesalandalus.programacion.alquilervehiculos.mvc.controlador.Controlador" base_Classifier="_rOfl4KIiEe2FfJdvgWWwEg"/>
+  <standard:Create xmi:id="_qBqiYKJOEe2iHtsPQvX-yw" base_BehavioralFeature="_qBh_gKJOEe2iHtsPQvX-yw"/>
+  <PapyrusJava:External xmi:id="_qCQ_UKJOEe2iHtsPQvX-yw" name="org.iesalandalus.programacion.alquilervehiculos.mvc.modelo.dominio.Cliente" base_Classifier="_qCMG0aJOEe2iHtsPQvX-yw"/>
+  <PapyrusJava:External xmi:id="_qCsdIKJOEe2iHtsPQvX-yw" name="org.iesalandalus.programacion.alquilervehiculos.mvc.modelo.dominio.Turismo" base_Classifier="_qCnkoKJOEe2iHtsPQvX-yw"/>
+  <PapyrusJava:External xmi:id="_qC-J8KJOEe2iHtsPQvX-yw" name="org.iesalandalus.programacion.alquilervehiculos.mvc.modelo.dominio.Alquiler" base_Classifier="_qC4qYKJOEe2iHtsPQvX-yw"/>
+  <PapyrusJava:External xmi:id="_141b0KOaEe2ZB8FyM7Ufdg" name="org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Alquiler" base_Classifier="_14qcsKOaEe2ZB8FyM7Ufdg"/>
+  <standard:Create xmi:id="_15HIoKOaEe2ZB8FyM7Ufdg" base_BehavioralFeature="_15BpEKOaEe2ZB8FyM7Ufdg"/>
+  <PapyrusJava:External xmi:id="_15jNgKOaEe2ZB8FyM7Ufdg" name="org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Cliente" base_Classifier="_15dG4KOaEe2ZB8FyM7Ufdg"/>
+  <PapyrusJava:External xmi:id="_153WkKOaEe2ZB8FyM7Ufdg" name="org.iesalandalus.programacion.alquilervehiculos.modelo.dominio.Turismo" base_Classifier="_15x3AKOaEe2ZB8FyM7Ufdg"/>
+</xmi:XMI>

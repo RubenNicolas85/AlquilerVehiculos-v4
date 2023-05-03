@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Vehiculos>
+    <Vehiculo Matricula="8334JGW" Tipo="Turismo">
+        <Marca TipoDato="String">Renault</Marca>
+        <Modelo TipoDato="String">Megane</Modelo>
+        <Turismo>
+            <Cilindrada TipoDato="Integer">1600</Cilindrada>
+        </Turismo>
+    </Vehiculo>
+    <Vehiculo Matricula="1445RTT" Tipo="Turismo">
+        <Marca TipoDato="String">Ford</Marca>
+        <Modelo TipoDato="String">Puma</Modelo>
+        <Turismo>
+            <Cilindrada TipoDato="Integer">2200</Cilindrada>
+        </Turismo>
+    </Vehiculo>
+    <Vehiculo Matricula="6737FDG" Tipo="Autobus">
+        <Marca TipoDato="String">Irizar</Marca>
+        <Modelo TipoDato="String">Giant</Modelo>
+        <Autobus>
+            <Plazas TipoDato="Integer">45</Plazas>
+        </Autobus>
+    </Vehiculo>
+    <Vehiculo Matricula="7816KKN" Tipo="Autobus">
+        <Marca TipoDato="String">Iveco</Marca>
+        <Modelo TipoDato="String">Maxi</Modelo>
+        <Autobus>
+            <Plazas TipoDato="Integer">50</Plazas>
+        </Autobus>
+    </Vehiculo>
+    <Vehiculo Matricula="2257JPG" Tipo="Furgoneta">
+        <Marca TipoDato="String">Mercedes-Benz</Marca>
+        <Modelo TipoDato="String">Vito</Modelo>
+        <Furgoneta>
+            <Pma TipoDato="Integer">1300</Pma>
+            <Plazas TipoDato="Integer">8</Plazas>
+        </Furgoneta>
+    </Vehiculo>
+    <Vehiculo Matricula="4620DPT" Tipo="Furgoneta">
+        <Marca TipoDato="String">Volkswagen</Marca>
+        <Modelo TipoDato="String">Caddy</Modelo>
+        <Furgoneta>
+            <Pma TipoDato="Integer">1500</Pma>
+            <Plazas TipoDato="Integer">10</Plazas>
+        </Furgoneta>
+    </Vehiculo>
+    <Vehiculo Matricula="9944MSN" Tipo="Turismo">
+        <Marca TipoDato="String">Volkswagen</Marca>
+        <Modelo TipoDato="String">Scirocco</Modelo>
+        <Turismo>
+            <Cilindrada TipoDato="Integer">4000</Cilindrada>
+        </Turismo>
+    </Vehiculo>
+    <Vehiculo Matricula="4321FDV" Tipo="Autobus">
+        <Marca TipoDato="String">MAN</Marca>
+        <Modelo TipoDato="String">Lion</Modelo>
+        <Autobus>
+            <Plazas TipoDato="Integer">50</Plazas>
+        </Autobus>
+    </Vehiculo>
+    <Vehiculo Matricula="0225BKK" Tipo="Turismo">
+        <Marca TipoDato="String">Citroën</Marca>
+        <Modelo TipoDato="String">Saxo</Modelo>
+        <Turismo>
+            <Cilindrada TipoDato="Integer">1000</Cilindrada>
+        </Turismo>
+    </Vehiculo>
+    <Vehiculo Matricula="5680GGV" Tipo="Turismo">
+        <Marca TipoDato="String">KIA</Marca>
+        <Modelo TipoDato="String">Ceed</Modelo>
+        <Turismo>
+            <Cilindrada TipoDato="Integer">4000</Cilindrada>
+        </Turismo>
+    </Vehiculo>
+    <Vehiculo Matricula="1990MMC" Tipo="Turismo">
+        <Marca TipoDato="String">Opel</Marca>
+        <Modelo TipoDato="String">Astra</Modelo>
+        <Turismo>
+            <Cilindrada TipoDato="Integer">1800</Cilindrada>
+        </Turismo>
+    </Vehiculo>
+    <Vehiculo Matricula="6664SDV" Tipo="Furgoneta">
+        <Marca TipoDato="String">Citroën</Marca>
+        <Modelo TipoDato="String">Berlingo</Modelo>
+        <Furgoneta>
+            <Pma TipoDato="Integer">900</Pma>
+            <Plazas TipoDato="Integer">10</Plazas>
+        </Furgoneta>
+    </Vehiculo>
+    <Vehiculo Matricula="1132MDE" Tipo="Autobus">
+        <Marca TipoDato="String">Volvo</Marca>
+        <Modelo TipoDato="String">9700</Modelo>
+        <Autobus>
+            <Plazas TipoDato="Integer">40</Plazas>
+        </Autobus>
+    </Vehiculo>
+    <Vehiculo Matricula="5899ERP" Tipo="Furgoneta">
+        <Marca TipoDato="String">Fiat</Marca>
+        <Modelo TipoDato="String">Tipo</Modelo>
+        <Furgoneta>
+            <Pma TipoDato="Integer">1100</Pma>
+            <Plazas TipoDato="Integer">8</Plazas>
+        </Furgoneta>
+    </Vehiculo>
+    <Vehiculo Matricula="3453SER" Tipo="Furgoneta">
+        <Marca TipoDato="String">Renault</Marca>
+        <Modelo TipoDato="String">Master</Modelo>
+        <Furgoneta>
+            <Pma TipoDato="Integer">1450</Pma>
+            <Plazas TipoDato="Integer">6</Plazas>
+        </Furgoneta>
+    </Vehiculo>
+    <Vehiculo Matricula="1190NUV" Tipo="Furgoneta">
+        <Marca TipoDato="String">Citroën</Marca>
+        <Modelo TipoDato="String">Jumpy</Modelo>
+        <Furgoneta>
+            <Pma TipoDato="Integer">750</Pma>
+            <Plazas TipoDato="Integer">10</Plazas>
+        </Furgoneta>
+    </Vehiculo>
+    <Vehiculo Matricula="8812HIH" Tipo="Autobus">
+        <Marca TipoDato="String">Irizar</Marca>
+        <Modelo TipoDato="String">I6S</Modelo>
+        <Autobus>
+            <Plazas TipoDato="Integer">25</Plazas>
+        </Autobus>
+    </Vehiculo>
+</Vehiculos>
